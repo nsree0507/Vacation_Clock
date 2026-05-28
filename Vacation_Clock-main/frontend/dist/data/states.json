@@ -1,0 +1,620 @@
+{
+    "regions": [
+        {
+            "id": "north",
+            "name": "North India",
+            "description": "Land of majestic mountains, sacred rivers, and timeless heritage",
+            "states": [
+                {
+                    "id": 1,
+                    "name": "Delhi",
+                    "region": "North",
+                    "latitude": 28.7041,
+                    "longitude": 77.1025,
+                    "description": "The heart of India, where ancient history meets modern ambition. Delhi offers a fascinating blend of Mughal architecture, colonial heritage, and contemporary culture.",
+                    "bestTime": "October to March",
+                    "climate": "Subtropical",
+                    "highlights": ["Red Fort", "Jama Masjid", "Qutub Minar", "India Gate", "Raj Ghat", "Lotus Temple"],
+                    "attractions": ["Red Fort", "Jama Masjid", "Qutub Minar", "India Gate", "Raj Ghat"],
+                    "accommodations": ["Taj Palace Delhi", "The Oberoi New Delhi", "ITC Maurya", "The Leela Palace"],
+                    "avgCost": "5000-15000",
+                    "packages": [
+                        { "name": "Heritage Walk", "duration": "3 Days", "price": 15000, "highlights": ["Old Delhi tour", "Mughal monuments", "Street food trail"] },
+                        { "name": "Delhi Complete", "duration": "5 Days", "price": 28000, "highlights": ["All major sights", "Shopping tours", "Cultural shows"] }
+                    ],
+                    "categories": ["heritage", "culture", "food"]
+                },
+                {
+                    "id": 2,
+                    "name": "Himachal Pradesh",
+                    "region": "North",
+                    "latitude": 31.7433,
+                    "longitude": 77.1205,
+                    "description": "The abode of snow, offering breathtaking mountain vistas, adventure sports, and serene hill stations amidst the mighty Himalayas.",
+                    "bestTime": "March to October",
+                    "climate": "Alpine",
+                    "highlights": ["Shimla", "Manali", "Dharamshala", "Spiti Valley", "Kasol", "Kinnaur"],
+                    "attractions": ["Shimla", "Manali", "Kasol", "Spiti Valley", "Kinnaur"],
+                    "accommodations": ["Wildflower Hall Shimla", "Span Resorts Manali", "The Himalayan", "Zostel"],
+                    "avgCost": "8000-15000",
+                    "packages": [
+                        { "name": "Shimla-Manali Magic", "duration": "6 Days", "price": 32000, "highlights": ["Scenic drives", "Snow activities", "Temple visits"] },
+                        { "name": "Spiti Adventure", "duration": "8 Days", "price": 45000, "highlights": ["High altitude lakes", "Ancient monasteries", "Stargazing"] }
+                    ],
+                    "categories": ["adventure", "nature", "mountains"]
+                },
+                {
+                    "id": 3,
+                    "name": "Punjab",
+                    "region": "North",
+                    "latitude": 31.5204,
+                    "longitude": 74.3587,
+                    "description": "The land of five rivers, known for its vibrant culture, delicious cuisine, and the spiritual haven of Golden Temple.",
+                    "bestTime": "October to March",
+                    "climate": "Subtropical",
+                    "highlights": ["Golden Temple", "Wagah Border", "Jallianwala Bagh", "Anandpur Sahib"],
+                    "attractions": ["Golden Temple", "Wagah Border", "Jallianwala Bagh", "Rock Garden"],
+                    "accommodations": ["Taj Swarna Amritsar", "Hyatt Amritsar", "Hotel Hong Kong Inn"],
+                    "avgCost": "4000-10000",
+                    "packages": [
+                        { "name": "Spiritual Punjab", "duration": "4 Days", "price": 18000, "highlights": ["Golden Temple", "Wagah ceremony", "Langar experience"] }
+                    ],
+                    "categories": ["devotional", "culture", "food"]
+                },
+                {
+                    "id": 4,
+                    "name": "Uttar Pradesh",
+                    "region": "North",
+                    "latitude": 26.8467,
+                    "longitude": 80.9462,
+                    "description": "Home to the iconic Taj Mahal and the spiritual city of Varanasi, this state is the heartland of Indian civilization.",
+                    "bestTime": "October to March",
+                    "climate": "Subtropical",
+                    "highlights": ["Taj Mahal", "Varanasi Ghats", "Mathura", "Agra Fort", "Lucknow"],
+                    "attractions": ["Taj Mahal", "Varanasi", "Mathura", "Agra Fort", "Lucknow"],
+                    "accommodations": ["The Oberoi Amarvilas", "Brijrama Palace", "Taj Ganges Varanasi"],
+                    "avgCost": "6000-15000",
+                    "packages": [
+                        { "name": "Golden Triangle", "duration": "5 Days", "price": 35000, "highlights": ["Taj Mahal", "Agra Fort", "Fatehpur Sikri"] },
+                        { "name": "Spiritual Varanasi", "duration": "4 Days", "price": 22000, "highlights": ["Ganga Aarti", "Boat rides", "Temple tours"] }
+                    ],
+                    "categories": ["devotional", "heritage", "culture"]
+                },
+                {
+                    "id": 5,
+                    "name": "Uttarakhand",
+                    "region": "North",
+                    "latitude": 30.0668,
+                    "longitude": 79.0193,
+                    "description": "Known as Dev Bhoomi (Land of Gods), this state offers sacred pilgrimage sites, adventure sports, and pristine natural beauty.",
+                    "bestTime": "April to June, September to October",
+                    "climate": "Temperate to Alpine",
+                    "highlights": ["Char Dham", "Rishikesh", "Nainital", "Mussoorie", "Jim Corbett", "Valley of Flowers"],
+                    "attractions": ["Char Dham", "Rishikesh", "Auli", "Nainital", "Mussoorie"],
+                    "accommodations": ["Ananda in the Himalayas", "JW Marriott Mussoorie", "The Naini Retreat"],
+                    "avgCost": "7000-12000",
+                    "packages": [
+                        { "name": "Char Dham Yatra", "duration": "10 Days", "price": 55000, "highlights": ["Badrinath", "Kedarnath", "Gangotri", "Yamunotri"] },
+                        { "name": "Adventure Rishikesh", "duration": "4 Days", "price": 18000, "highlights": ["River rafting", "Bungee jumping", "Yoga sessions"] }
+                    ],
+                    "categories": ["devotional", "adventure", "nature"]
+                },
+                {
+                    "id": 6,
+                    "name": "Jammu & Kashmir",
+                    "region": "North",
+                    "latitude": 34.1526,
+                    "longitude": 77.5770,
+                    "description": "Paradise on Earth, featuring stunning valleys, pristine lakes, and snow-capped mountains that have inspired poets for centuries.",
+                    "bestTime": "April to October",
+                    "climate": "Alpine",
+                    "highlights": ["Dal Lake", "Gulmarg", "Pahalgam", "Sonamarg", "Leh-Ladakh"],
+                    "attractions": ["Dal Lake", "Gulmarg", "Pahalgam", "Sonmarg", "Leh Ladakh"],
+                    "accommodations": ["The Lalit Grand Palace", "Vivanta Dal View", "Khyber Himalayan Resort"],
+                    "avgCost": "12000-25000",
+                    "packages": [
+                        { "name": "Kashmir Paradise", "duration": "6 Days", "price": 42000, "highlights": ["Shikara ride", "Gulmarg gondola", "Garden tours"] },
+                        { "name": "Ladakh Expedition", "duration": "8 Days", "price": 58000, "highlights": ["Pangong Lake", "Nubra Valley", "Monasteries"] }
+                    ],
+                    "categories": ["nature", "adventure", "honeymoon"]
+                },
+                {
+                    "id": 7,
+                    "name": "Rajasthan",
+                    "region": "North",
+                    "latitude": 27.0238,
+                    "longitude": 74.2179,
+                    "description": "The Land of Kings, where magnificent forts, opulent palaces, and vibrant culture create an unforgettable royal experience.",
+                    "bestTime": "October to March",
+                    "climate": "Arid to Semi-arid",
+                    "highlights": ["Jaipur", "Udaipur", "Jodhpur", "Jaisalmer", "Pushkar"],
+                    "attractions": ["Jaipur", "Udaipur", "Jodhpur", "Jaisalmer", "Mount Abu"],
+                    "accommodations": ["Taj Lake Palace", "The Oberoi Udaivilas", "Suryagarh Jaisalmer"],
+                    "avgCost": "8000-20000",
+                    "packages": [
+                        { "name": "Royal Rajasthan", "duration": "8 Days", "price": 65000, "highlights": ["Palace stays", "Desert safari", "Cultural shows"] },
+                        { "name": "Heritage Circuit", "duration": "6 Days", "price": 45000, "highlights": ["Fort tours", "Havelis", "Local cuisine"] }
+                    ],
+                    "categories": ["heritage", "luxury", "culture"]
+                }
+            ]
+        },
+        {
+            "id": "south",
+            "name": "South India",
+            "description": "Tropical paradise of ancient temples, serene backwaters, and lush landscapes",
+            "states": [
+                {
+                    "id": 8,
+                    "name": "Tamil Nadu",
+                    "region": "South",
+                    "latitude": 11.1271,
+                    "longitude": 79.2804,
+                    "description": "The cradle of Dravidian civilization, featuring magnificent temples, classical arts, and the serene hill stations of the Nilgiris.",
+                    "bestTime": "October to March",
+                    "climate": "Tropical",
+                    "highlights": ["Meenakshi Temple", "Thanjavur", "Ooty", "Kodaikanal", "Mahabalipuram"],
+                    "attractions": ["Meenakshi Temple", "Thanjavur Temple", "Ooty", "Kodaikanal", "Rameswaram"],
+                    "accommodations": ["ITC Grand Chola", "Taj Connemara", "Savoy Ooty"],
+                    "avgCost": "5000-12000",
+                    "packages": [
+                        { "name": "Temple Trail", "duration": "6 Days", "price": 32000, "highlights": ["Ancient temples", "Classical dance", "Traditional cuisine"] },
+                        { "name": "Hill Station Escape", "duration": "5 Days", "price": 28000, "highlights": ["Ooty", "Kodaikanal", "Tea plantations"] }
+                    ],
+                    "categories": ["devotional", "heritage", "nature"]
+                },
+                {
+                    "id": 9,
+                    "name": "Kerala",
+                    "region": "South",
+                    "latitude": 10.8505,
+                    "longitude": 76.2711,
+                    "description": "God's Own Country, where palm-fringed backwaters, pristine beaches, and Ayurvedic traditions create a tropical paradise.",
+                    "bestTime": "September to March",
+                    "climate": "Tropical",
+                    "highlights": ["Backwaters", "Munnar", "Alleppey", "Kochi", "Thekkady", "Wayanad"],
+                    "attractions": ["Backwaters", "Munnar", "Alleppey", "Cochin", "Wayanad"],
+                    "accommodations": ["Kumarakom Lake Resort", "Taj Malabar", "Spice Village Thekkady"],
+                    "avgCost": "8000-18000",
+                    "packages": [
+                        { "name": "Kerala Houseboat Experience", "duration": "5 Days", "price": 38000, "highlights": ["Houseboat stay", "Kathakali show", "Ayurvedic spa"] },
+                        { "name": "Complete Kerala", "duration": "8 Days", "price": 55000, "highlights": ["Munnar", "Thekkady", "Alleppey", "Kovalam"] }
+                    ],
+                    "categories": ["nature", "honeymoon", "wellness"]
+                },
+                {
+                    "id": 10,
+                    "name": "Karnataka",
+                    "region": "South",
+                    "latitude": 15.3173,
+                    "longitude": 75.7139,
+                    "description": "From the tech hub of Bangalore to the coffee estates of Coorg and the ruins of Hampi, Karnataka offers incredible diversity.",
+                    "bestTime": "October to March",
+                    "climate": "Tropical to Semi-arid",
+                    "highlights": ["Hampi", "Coorg", "Mysore Palace", "Bangalore", "Jog Falls"],
+                    "attractions": ["Mysore Palace", "Coorg", "Hampi", "Bangalore", "Jog Falls"],
+                    "accommodations": ["The Oberoi Bangalore", "Orange County Coorg", "Evolve Back Hampi"],
+                    "avgCost": "6000-14000",
+                    "packages": [
+                        { "name": "Heritage Karnataka", "duration": "6 Days", "price": 35000, "highlights": ["Mysore Palace", "Hampi ruins", "Belur-Halebid"] },
+                        { "name": "Coorg Retreat", "duration": "4 Days", "price": 25000, "highlights": ["Coffee plantations", "Abbey Falls", "River rafting"] }
+                    ],
+                    "categories": ["heritage", "nature", "adventure"]
+                },
+                {
+                    "id": 11,
+                    "name": "Andhra Pradesh",
+                    "region": "South",
+                    "latitude": 15.9129,
+                    "longitude": 78.6675,
+                    "description": "Home to the sacred Tirupati temple and beautiful coastal regions, with a rich Buddhist heritage.",
+                    "bestTime": "October to March",
+                    "climate": "Tropical",
+                    "highlights": ["Tirupati", "Visakhapatnam", "Araku Valley", "Lepakshi"],
+                    "attractions": ["Tirupati Temple", "Visakhapatnam", "Araku Valley", "Lepakshi"],
+                    "accommodations": ["Novotel Visakhapatnam", "Fortune Select Grand", "ITC Kakatiya"],
+                    "avgCost": "5000-10000",
+                    "packages": [
+                        { "name": "Spiritual Tirupati", "duration": "3 Days", "price": 15000, "highlights": ["Tirupati darshan", "Temple tour", "VIP access"] }
+                    ],
+                    "categories": ["devotional", "nature", "beaches"]
+                },
+                {
+                    "id": 12,
+                    "name": "Telangana",
+                    "region": "South",
+                    "latitude": 17.3850,
+                    "longitude": 78.4867,
+                    "description": "The land of the Nizams, featuring the magnificent Charminar, delicious Hyderabadi biryani, and pearl markets.",
+                    "bestTime": "October to March",
+                    "climate": "Tropical",
+                    "highlights": ["Charminar", "Golconda Fort", "Hussain Sagar", "Ramoji Film City"],
+                    "attractions": ["Charminar", "Mecca Masjid", "Hussain Sagar", "Golconda Fort"],
+                    "accommodations": ["Taj Falaknuma Palace", "ITC Kohenur", "Novotel Hyderabad"],
+                    "avgCost": "5000-12000",
+                    "packages": [
+                        { "name": "Hyderabad Heritage", "duration": "4 Days", "price": 22000, "highlights": ["Charminar", "Golconda", "Pearl shopping", "Biryani trail"] }
+                    ],
+                    "categories": ["heritage", "culture", "food"]
+                },
+                {
+                    "id": 13,
+                    "name": "Goa",
+                    "region": "South",
+                    "latitude": 15.2993,
+                    "longitude": 73.8243,
+                    "description": "India's beach paradise, blending Portuguese heritage, golden sands, vibrant nightlife, and laid-back coastal charm.",
+                    "bestTime": "October to March",
+                    "climate": "Tropical",
+                    "highlights": ["Beaches", "Old Goa Churches", "Dudhsagar Falls", "Spice Plantations"],
+                    "attractions": ["Anjuna Beach", "Baga Beach", "Basilica of Bom Jesus", "Dudhsagar Falls"],
+                    "accommodations": ["Taj Exotica", "W Goa", "Alila Diwa Goa"],
+                    "avgCost": "8000-20000",
+                    "packages": [
+                        { "name": "Beach Bliss", "duration": "5 Days", "price": 35000, "highlights": ["Beach hopping", "Water sports", "Nightlife"] },
+                        { "name": "Heritage Goa", "duration": "4 Days", "price": 25000, "highlights": ["Old Goa", "Spice tours", "Dolphin cruise"] }
+                    ],
+                    "categories": ["beaches", "honeymoon", "adventure"]
+                }
+            ]
+        },
+        {
+            "id": "east",
+            "name": "East India",
+            "description": "Rich cultural heritage, spiritual centers, and natural wonders",
+            "states": [
+                {
+                    "id": 14,
+                    "name": "West Bengal",
+                    "region": "East",
+                    "latitude": 24.8355,
+                    "longitude": 88.2381,
+                    "description": "The cultural capital of India, featuring colonial Kolkata, the majestic Darjeeling hills, and the mysterious Sundarbans.",
+                    "bestTime": "October to March",
+                    "climate": "Tropical to Subtropical",
+                    "highlights": ["Kolkata", "Darjeeling", "Sundarbans", "Santiniketan"],
+                    "attractions": ["Darjeeling", "Kolkata", "Sundarbans", "Himalayan Railway"],
+                    "accommodations": ["The Oberoi Grand", "Glenburn Tea Estate", "Windamere Hotel"],
+                    "avgCost": "5000-12000",
+                    "packages": [
+                        { "name": "Darjeeling Dreams", "duration": "5 Days", "price": 28000, "highlights": ["Tea gardens", "Tiger Hill sunrise", "Toy train"] },
+                        { "name": "Sundarbans Safari", "duration": "3 Days", "price": 18000, "highlights": ["Tiger spotting", "Mangrove cruise", "Bird watching"] }
+                    ],
+                    "categories": ["nature", "wildlife", "culture"]
+                },
+                {
+                    "id": 15,
+                    "name": "Bihar",
+                    "region": "East",
+                    "latitude": 25.5941,
+                    "longitude": 85.1376,
+                    "description": "The birthplace of Buddhism, where ancient universities and sacred sites tell the story of India's spiritual heritage.",
+                    "bestTime": "October to March",
+                    "climate": "Subtropical",
+                    "highlights": ["Bodh Gaya", "Nalanda", "Rajgir", "Patna", "Vaishali"],
+                    "attractions": ["Bodh Gaya", "Nalanda", "Rajgir", "Patna", "Vaishali"],
+                    "accommodations": ["Taj Darbar Bodhgaya", "Hotel Bodhgaya Regency", "Maurya Patna"],
+                    "avgCost": "4000-8000",
+                    "packages": [
+                        { "name": "Buddhist Circuit", "duration": "5 Days", "price": 25000, "highlights": ["Mahabodhi Temple", "Nalanda ruins", "Meditation sessions"] }
+                    ],
+                    "categories": ["devotional", "heritage", "culture"]
+                },
+                {
+                    "id": 16,
+                    "name": "Odisha",
+                    "region": "East",
+                    "latitude": 20.9517,
+                    "longitude": 85.0985,
+                    "description": "Land of Lord Jagannath, featuring magnificent temple architecture, pristine beaches, and tribal heritage.",
+                    "bestTime": "October to March",
+                    "climate": "Tropical",
+                    "highlights": ["Jagannath Temple", "Konark Sun Temple", "Puri Beach", "Chilika Lake"],
+                    "attractions": ["Jagannath Temple", "Konark Temple", "Puri Beach", "Chilika Lake"],
+                    "accommodations": ["Mayfair Heritage", "Toshali Sands", "The Hans Coco Palms"],
+                    "avgCost": "4000-10000",
+                    "packages": [
+                        { "name": "Temple & Beach", "duration": "5 Days", "price": 22000, "highlights": ["Jagannath Temple", "Konark", "Chilika boat ride"] }
+                    ],
+                    "categories": ["devotional", "beaches", "heritage"]
+                },
+                {
+                    "id": 17,
+                    "name": "Jharkhand",
+                    "region": "East",
+                    "latitude": 23.6102,
+                    "longitude": 85.2799,
+                    "description": "The forest land, home to stunning waterfalls, wildlife sanctuaries, and rich tribal culture.",
+                    "bestTime": "October to March",
+                    "climate": "Subtropical",
+                    "highlights": ["Jamshedpur", "Ranchi", "Netarhat", "Hundru Falls"],
+                    "attractions": ["Jamshedpur", "Ranchi", "Netarhat", "Hundru Falls"],
+                    "accommodations": ["Radisson Blu Jamshedpur", "Hotel BNR Chanakya"],
+                    "avgCost": "4000-8000",
+                    "packages": [
+                        { "name": "Waterfalls Trail", "duration": "4 Days", "price": 18000, "highlights": ["Hundru Falls", "Jonha Falls", "Tribal villages"] }
+                    ],
+                    "categories": ["nature", "adventure", "culture"]
+                }
+            ]
+        },
+        {
+            "id": "west",
+            "name": "West India",
+            "description": "Dynamic metropolises, desert adventures, and coastal wonders",
+            "states": [
+                {
+                    "id": 18,
+                    "name": "Gujarat",
+                    "region": "West",
+                    "latitude": 22.2587,
+                    "longitude": 71.1924,
+                    "description": "The land of Mahatma Gandhi, featuring the Statue of Unity, Gir lions, and the white desert of Kutch.",
+                    "bestTime": "October to March",
+                    "climate": "Arid to Semi-arid",
+                    "highlights": ["Statue of Unity", "Gir National Park", "Rann of Kutch", "Somnath"],
+                    "attractions": ["Statue of Unity", "Gir National Park", "Rann of Kutch", "Somnath Temple"],
+                    "accommodations": ["Taj Gateway Vadodara", "Rann Utsav Camps", "Fern Residency Junagadh"],
+                    "avgCost": "5000-12000",
+                    "packages": [
+                        { "name": "Rann Utsav", "duration": "4 Days", "price": 28000, "highlights": ["White desert", "Cultural performances", "Sunset views"] },
+                        { "name": "Gir Safari", "duration": "3 Days", "price": 22000, "highlights": ["Lion safari", "Somnath temple", "Junagadh fort"] }
+                    ],
+                    "categories": ["wildlife", "culture", "adventure"]
+                },
+                {
+                    "id": 19,
+                    "name": "Maharashtra",
+                    "region": "West",
+                    "latitude": 19.7515,
+                    "longitude": 75.7139,
+                    "description": "From the bustling city of Mumbai to the ancient Ajanta-Ellora caves, Maharashtra offers urban excitement and historical treasures.",
+                    "bestTime": "October to March",
+                    "climate": "Tropical",
+                    "highlights": ["Mumbai", "Ajanta Caves", "Ellora Caves", "Lonavala", "Mahabaleshwar"],
+                    "attractions": ["Mumbai", "Aurangabad", "Ajanta Caves", "Ellora Caves", "Mahabaleshwar"],
+                    "accommodations": ["Taj Mahal Palace Mumbai", "The Oberoi Mumbai", "Fariyas Resort Lonavala"],
+                    "avgCost": "6000-15000",
+                    "packages": [
+                        { "name": "Mumbai Dreams", "duration": "4 Days", "price": 30000, "highlights": ["Gateway of India", "Elephanta Caves", "Bollywood tour"] },
+                        { "name": "Cave Expedition", "duration": "5 Days", "price": 28000, "highlights": ["Ajanta", "Ellora", "Daulatabad Fort"] }
+                    ],
+                    "categories": ["heritage", "culture", "nature"]
+                }
+            ]
+        },
+        {
+            "id": "central",
+            "name": "Central India",
+            "description": "Tiger country, ancient temples, and tribal traditions",
+            "states": [
+                {
+                    "id": 20,
+                    "name": "Madhya Pradesh",
+                    "region": "Central",
+                    "latitude": 22.9375,
+                    "longitude": 78.6553,
+                    "description": "The heart of India, home to magnificent wildlife reserves, UNESCO World Heritage sites, and ancient temples.",
+                    "bestTime": "October to March",
+                    "climate": "Subtropical",
+                    "highlights": ["Khajuraho", "Sanchi", "Bandhavgarh", "Kanha", "Orchha"],
+                    "attractions": ["Khajuraho", "Sanchi", "Indore", "Mandu", "Bandhavgarh"],
+                    "accommodations": ["Taj Usha Kiran Palace", "Jehan Numa Palace", "Mahua Kothi Bandhavgarh"],
+                    "avgCost": "5000-12000",
+                    "packages": [
+                        { "name": "Wildlife Safari", "duration": "5 Days", "price": 38000, "highlights": ["Tiger safari", "Jungle walks", "Photography"] },
+                        { "name": "Heritage Trail", "duration": "6 Days", "price": 32000, "highlights": ["Khajuraho temples", "Sanchi Stupa", "Orchha palaces"] }
+                    ],
+                    "categories": ["wildlife", "heritage", "nature"]
+                },
+                {
+                    "id": 21,
+                    "name": "Chhattisgarh",
+                    "region": "Central",
+                    "latitude": 21.2787,
+                    "longitude": 81.8661,
+                    "description": "The rice bowl of India, featuring dense forests, waterfalls, ancient temples, and vibrant tribal culture.",
+                    "bestTime": "October to March",
+                    "climate": "Tropical",
+                    "highlights": ["Chitrakote Falls", "Tirathgarh Falls", "Barnawapara Wildlife", "Rajim"],
+                    "attractions": ["Chitrakote Falls", "Tirathgarh Falls", "Barnawapara", "Rajim"],
+                    "accommodations": ["Naman Resort", "Hotel Ambikapur", "Bastar Resort"],
+                    "avgCost": "4000-8000",
+                    "packages": [
+                        { "name": "Tribal Heritage", "duration": "5 Days", "price": 22000, "highlights": ["Tribal villages", "Waterfalls", "Local crafts"] }
+                    ],
+                    "categories": ["nature", "culture", "adventure"]
+                }
+            ]
+        },
+        {
+            "id": "northeast",
+            "name": "Northeast India",
+            "description": "Seven sisters offering unexplored natural beauty and tribal cultures",
+            "states": [
+                {
+                    "id": 22,
+                    "name": "Assam",
+                    "region": "Northeast",
+                    "latitude": 26.1445,
+                    "longitude": 91.7362,
+                    "description": "Land of tea gardens and one-horned rhinos, where the mighty Brahmaputra flows through lush landscapes.",
+                    "bestTime": "October to April",
+                    "climate": "Subtropical",
+                    "highlights": ["Kaziranga", "Majuli Island", "Guwahati", "Tea Gardens"],
+                    "attractions": ["Kaziranga", "Guwahati", "Majuli", "Sivasagar"],
+                    "accommodations": ["Wild Mahseer Lodge", "Diphlu River Lodge", "Vivanta Guwahati"],
+                    "avgCost": "6000-12000",
+                    "packages": [
+                        { "name": "Kaziranga Safari", "duration": "4 Days", "price": 28000, "highlights": ["Rhino spotting", "Elephant safari", "Tea tasting"] }
+                    ],
+                    "categories": ["wildlife", "nature", "adventure"]
+                },
+                {
+                    "id": 23,
+                    "name": "Meghalaya",
+                    "region": "Northeast",
+                    "latitude": 25.4670,
+                    "longitude": 91.3662,
+                    "description": "The abode of clouds, featuring living root bridges, pristine waterfalls, and the cleanest village in Asia.",
+                    "bestTime": "October to May",
+                    "climate": "Subtropical",
+                    "highlights": ["Cherrapunji", "Mawlynnong", "Shillong", "Living Root Bridges"],
+                    "attractions": ["Shillong", "Cherrapunji", "Mawlynnong", "Living Root Bridges"],
+                    "accommodations": ["Ri Kynjai Shillong", "Polo Orchid Resort", "Cherrapunjee Holiday Resort"],
+                    "avgCost": "5000-10000",
+                    "packages": [
+                        { "name": "Cloud Kingdom", "duration": "5 Days", "price": 25000, "highlights": ["Living root bridges", "Waterfalls", "Cave exploration"] }
+                    ],
+                    "categories": ["nature", "adventure", "culture"]
+                },
+                {
+                    "id": 24,
+                    "name": "Sikkim",
+                    "region": "Northeast",
+                    "latitude": 27.5330,
+                    "longitude": 88.5122,
+                    "description": "A tiny Himalayan state with towering mountains, Buddhist monasteries, and stunning alpine lakes.",
+                    "bestTime": "March to May, September to November",
+                    "climate": "Alpine",
+                    "highlights": ["Gangtok", "Nathula Pass", "Tsomgo Lake", "Pelling"],
+                    "attractions": ["Gangtok", "Tsomgo Lake", "Nathula Pass", "Pelling"],
+                    "accommodations": ["The Elgin Nor-Khill", "Mayfair Gangtok", "Summit Denzong"],
+                    "avgCost": "6000-12000",
+                    "packages": [
+                        { "name": "Sikkim Explorer", "duration": "6 Days", "price": 32000, "highlights": ["Nathula Pass", "Monastery visits", "Mountain views"] }
+                    ],
+                    "categories": ["nature", "adventure", "devotional"]
+                },
+                {
+                    "id": 25,
+                    "name": "Arunachal Pradesh",
+                    "region": "Northeast",
+                    "latitude": 28.2180,
+                    "longitude": 94.7278,
+                    "description": "The land of the rising sun, featuring snow-capped peaks, ancient monasteries, and diverse tribal cultures.",
+                    "bestTime": "March to October",
+                    "climate": "Alpine to Subtropical",
+                    "highlights": ["Tawang Monastery", "Ziro Valley", "Bomdila", "Namdapha"],
+                    "attractions": ["Tawang", "Ziro Valley", "Bomdila", "Namdapha"],
+                    "accommodations": ["Hotel Gakyi Khang Zhang", "Ziro Valley Resort", "Tawang Inn"],
+                    "avgCost": "7000-15000",
+                    "packages": [
+                        { "name": "Tawang Expedition", "duration": "7 Days", "price": 42000, "highlights": ["Tawang Monastery", "Sela Pass", "War memorial"] }
+                    ],
+                    "categories": ["adventure", "devotional", "culture"]
+                },
+                {
+                    "id": 26,
+                    "name": "Nagaland",
+                    "region": "Northeast",
+                    "latitude": 26.1584,
+                    "longitude": 94.5624,
+                    "description": "Land of festivals, known for the famous Hornbill Festival and rich tribal warrior traditions.",
+                    "bestTime": "October to May",
+                    "climate": "Subtropical",
+                    "highlights": ["Hornbill Festival", "Kohima", "Dzukou Valley", "Tribal Villages"],
+                    "attractions": ["Kohima", "Hornbill Festival", "Dzukou Valley", "Mon"],
+                    "accommodations": ["Hotel Japfu", "Razhu Pru Resort", "The Heritage Kohima"],
+                    "avgCost": "5000-10000",
+                    "packages": [
+                        { "name": "Hornbill Experience", "duration": "5 Days", "price": 35000, "highlights": ["Hornbill Festival", "Tribal dances", "Local cuisine"] }
+                    ],
+                    "categories": ["culture", "adventure", "nature"]
+                },
+                {
+                    "id": 27,
+                    "name": "Manipur",
+                    "region": "Northeast",
+                    "latitude": 24.6637,
+                    "longitude": 93.9063,
+                    "description": "The jewel of India, famous for Loktak Lake with its floating islands and the classical Manipuri dance.",
+                    "bestTime": "October to February",
+                    "climate": "Subtropical",
+                    "highlights": ["Loktak Lake", "Imphal", "Kangla Fort", "Keibul Lamjao"],
+                    "attractions": ["Loktak Lake", "Imphal", "Kangla Fort", "Keibul Lamjao"],
+                    "accommodations": ["Classic Hotel", "Hotel Nirmala", "Sangai Continental"],
+                    "avgCost": "4000-8000",
+                    "packages": [
+                        { "name": "Manipur Discovery", "duration": "4 Days", "price": 20000, "highlights": ["Loktak Lake", "Sangai deer", "Manipuri dance"] }
+                    ],
+                    "categories": ["nature", "culture", "wildlife"]
+                },
+                {
+                    "id": 28,
+                    "name": "Tripura",
+                    "region": "Northeast",
+                    "latitude": 23.9408,
+                    "longitude": 91.9882,
+                    "description": "A land of palaces and temples, featuring the stunning Neermahal lake palace and rich Bengali culture.",
+                    "bestTime": "October to March",
+                    "climate": "Tropical",
+                    "highlights": ["Neermahal", "Ujjayanta Palace", "Unakoti", "Sepahijala"],
+                    "attractions": ["Neermahal", "Ujjayanta Palace", "Unakoti", "Sepahijala"],
+                    "accommodations": ["Hotel Rajdhani", "Ginger Agartala", "Hotel Welcome Palace"],
+                    "avgCost": "3500-7000",
+                    "packages": [
+                        { "name": "Tripura Heritage", "duration": "4 Days", "price": 18000, "highlights": ["Palace tours", "Rock carvings", "Wildlife sanctuary"] }
+                    ],
+                    "categories": ["heritage", "nature", "culture"]
+                },
+                {
+                    "id": 29,
+                    "name": "Mizoram",
+                    "region": "Northeast",
+                    "latitude": 23.1645,
+                    "longitude": 92.9376,
+                    "description": "A serene hill state of rolling green landscapes, bamboo forests, vibrant festivals, and peaceful village life.",
+                    "bestTime": "October to March",
+                    "climate": "Subtropical",
+                    "highlights": ["Aizawl", "Reiek", "Phawngpui", "Vantawng Falls"],
+                    "attractions": ["Aizawl", "Reiek Tlang", "Phawngpui", "Vantawng Falls"],
+                    "accommodations": ["Hotel Regency Aizawl", "Hotel Dinthar", "The Grand Hotel"],
+                    "avgCost": "4000-9000",
+                    "packages": [
+                        { "name": "Mizoram Highlands", "duration": "4 Days", "price": 22000, "highlights": ["Aizawl city", "Hill viewpoints", "Local culture"] }
+                    ],
+                    "categories": ["nature", "culture", "adventure"]
+                }
+            ]
+        }
+    ],
+    "categories": [
+        { "id": "devotional", "name": "Devotional", "icon": "temple", "description": "Sacred temples, churches, mosques, and pilgrimage sites" },
+        { "id": "adventure", "name": "Adventure", "icon": "mountain", "description": "Trekking, rafting, paragliding, and thrilling experiences" },
+        { "id": "nature", "name": "Nature", "icon": "leaf", "description": "Hills, waterfalls, forests, and scenic landscapes" },
+        { "id": "heritage", "name": "Heritage", "icon": "castle", "description": "Historical monuments, forts, palaces, and museums" },
+        { "id": "family", "name": "Family Trips", "icon": "users", "description": "Resorts, entertainment parks, and family-friendly attractions" },
+        { "id": "luxury", "name": "Luxury", "icon": "crown", "description": "Premium resorts, luxury cruises, and VIP services" },
+        { "id": "honeymoon", "name": "Honeymoon", "icon": "heart", "description": "Romantic getaways and couple-friendly destinations" },
+        { "id": "beaches", "name": "Beaches", "icon": "umbrella", "description": "Coastal paradises and seaside retreats" },
+        { "id": "wildlife", "name": "Wildlife", "icon": "paw", "description": "National parks, sanctuaries, and safari experiences" },
+        { "id": "culture", "name": "Culture", "icon": "palette", "description": "Arts, festivals, local traditions, and cuisine" }
+    ],
+    "services": [
+        {
+            "id": "caretaker",
+            "name": "Caretaker Service",
+            "description": "Special assistance for elderly travelers and those with special needs",
+            "features": ["Trained caretakers", "24/7 emergency support", "Wheelchair assistance", "Medical support contacts", "Personalized care plans"]
+        },
+        {
+            "id": "photographer",
+            "name": "Photography Service",
+            "description": "Professional photography to capture your travel memories",
+            "features": ["Personal photographer", "Drone photography", "Couple photography", "Family portraits", "Instant digital album", "Video documentation"]
+        },
+        {
+            "id": "guide",
+            "name": "Expert Guides",
+            "description": "Local experts who bring destinations to life",
+            "features": ["Multilingual guides", "Historical expertise", "Local insights", "Flexible itineraries", "24/7 availability"]
+        },
+        {
+            "id": "transport",
+            "name": "Premium Transport",
+            "description": "Comfortable and reliable transportation throughout your journey",
+            "features": ["Luxury vehicles", "Professional drivers", "Airport transfers", "Interstate travel", "Customized routes"]
+        }
+    ]
+}
