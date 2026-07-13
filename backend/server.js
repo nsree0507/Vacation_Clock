@@ -6,12 +6,12 @@ import dotenv from 'dotenv'
 import mongoose from 'mongoose'
 import multer from 'multer'
 import path from 'path'
+import { v2 as cloudinary } from 'cloudinary'
 import { fileURLToPath } from 'url'
-import fs from 'fs'
- 
+
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
- 
+
 // Routes
 import adminRoutes from './routes/adminRoutes.js'
 import destinationRoutes from './routes/destinationRoutes.js'
@@ -37,33 +37,69 @@ const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/vacati
 app.use(cors())
 app.use(express.json())
  
-// Image Upload Setup
-const uploadsDir = path.join(__dirname, 'uploads')
-if (!fs.existsSync(uploadsDir)) fs.mkdirSync(uploadsDir, { recursive: true })
- 
-app.use('/uploads', express.static(uploadsDir))
- 
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => cb(null, uploadsDir),
-  filename: (req, file, cb) => {
-    const ext = path.extname(file.originalname)
-    const uniqueName = `dest_${Date.now()}_${Math.round(Math.random() * 1e6)}${ext}`
-    cb(null, uniqueName)
+// ==================== Cloudinary ====================
+
+const cloudinaryConfig = {
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
+}
+
+cloudinary.config(cloudinaryConfig)
+
+const isCloudinaryConfigured = Boolean(
+  cloudinaryConfig.cloud_name &&
+  cloudinaryConfig.api_key &&
+  cloudinaryConfig.api_secret
+)
+
+if (!isCloudinaryConfigured) {
+  console.warn('Cloudinary environment variables are missing. Image uploads will fail until CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, and CLOUDINARY_API_SECRET are set.')
+}
+
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: {
+    fileSize: 5 * 1024 * 1024,
   },
 })
- 
-const fileFilter = (req, file, cb) => {
-  const allowed = ['image/jpeg', 'image/png', 'image/webp', 'image/gif']
-  if (allowed.includes(file.mimetype)) cb(null, true)
-  else cb(new Error('Only image files are allowed'), false)
-}
- 
-const upload = multer({ storage, fileFilter, limits: { fileSize: 5 * 1024 * 1024 } })
- 
-app.post('/api/upload', upload.single('image'), (req, res) => {
-  if (!req.file) return res.status(400).json({ message: 'No file uploaded' })
-  const imageUrl = `${req.protocol}://${req.get('host')}/uploads/${req.file.filename}`
-  res.json({ success: true, imageUrl })
+
+app.post('/api/upload', upload.single('image'), async (req, res) => {
+  if (!req.file?.buffer) {
+    return res.status(400).json({
+      success: false,
+      message: 'No image uploaded',
+    })
+  }
+
+  try {
+    const uploadResult = await new Promise((resolve, reject) => {
+      const stream = cloudinary.uploader.upload_stream(
+        {
+          folder: 'vacation-clock',
+          allowed_formats: ['jpg', 'jpeg', 'png', 'webp'],
+          resource_type: 'image',
+        },
+        (error, result) => {
+          if (error) return reject(error)
+          resolve(result)
+        }
+      )
+
+      stream.end(req.file.buffer)
+    })
+
+    res.json({
+      success: true,
+      imageUrl: uploadResult.secure_url,
+    })
+  } catch (error) {
+    console.error('Cloudinary upload failed:', error)
+    return res.status(500).json({
+      success: false,
+      message: 'Image upload failed',
+    })
+  }
 })
  
 // ─── Seed: Default Admin ────────────────────────────────────────────────────
@@ -84,7 +120,7 @@ const seedDefaultAdmin = async () => {
     console.error('Error seeding default admin:', err)
   }
 }
- 
+
 // ─── Seed: All 119 Destinations ─────────────────────────────────────────────
 const seedDestinations = async () => {
   try {
