@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
  
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://vacation-clock-6oij.onrender.com/api'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://vacation-clock-6oij.onrender.com/api'
  
 export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
   const modalRef = useRef(null)
