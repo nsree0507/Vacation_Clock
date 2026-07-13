@@ -71,7 +71,7 @@ GET    /api/bookings/admin/all    - Get all bookings (admin)
 
 #### `.env` (Environment Variables)
 ```
-VITE_API_BASE_URL=http://localhost:5000/api
+VITE_API_BASE_URL=https://vacation-clock-6oij.onrender.com/api
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/vacation-bookings
 NODE_ENV=development
@@ -261,14 +261,14 @@ Response 200:
 
 ### Quick Test with Postman
 1. Download Postman
-2. Create POST request to `http://localhost:5000/api/bookings`
+2. Create POST request to `https://vacation-clock-6oij.onrender.com/api/bookings`
 3. Add JSON body with booking details
 4. Click Send
 5. Verify response contains bookingId
 
 ### Test Health Check
 ```
-GET http://localhost:5000/api/health
+GET https://vacation-clock-6oij.onrender.com/api/health
 
 Response:
 {

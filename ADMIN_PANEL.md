@@ -134,7 +134,7 @@ vacation-clock-website/
    PORT=5000
    MONGODB_URI=mongodb://localhost:27017/vacation-clock
    JWT_SECRET=your_jwt_secret_key_change_this_in_production
-   REACT_APP_API_URL=http://localhost:5000/api
+   REACT_APP_API_URL=https://vacation-clock-6oij.onrender.com/api
    ```
 
 ### Running the Application

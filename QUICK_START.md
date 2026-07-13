@@ -57,7 +57,7 @@ Expected: `Local: http://localhost:5173`
 Using cURL or Postman:
 
 ```bash
-curl -X POST http://localhost:5000/api/bookings \
+curl -X POST https://vacation-clock-6oij.onrender.com/api/bookings \
   -H "Content-Type: application/json" \
   -d '{
     "customerName": "Test User",
@@ -79,7 +79,7 @@ Response should include `"bookingId": "BK-2025-XXXXX"`
 
 **Backend Health:**
 ```
-http://localhost:5000/api/health
+https://vacation-clock-6oij.onrender.com/api/health
 ```
 Should return: `{"status": "ok", "message": "Booking service is running"}`
 

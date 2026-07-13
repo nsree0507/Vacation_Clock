@@ -19,7 +19,7 @@ All required packages are installed. Check `package.json` for the following:
 ### 2. Environment Configuration
 The `.env` file is already created with:
 ```
-VITE_API_BASE_URL=http://localhost:5000/api
+VITE_API_BASE_URL=https://vacation-clock-6oij.onrender.com/api
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/vacation-bookings
 NODE_ENV=development
@@ -60,7 +60,7 @@ MongoDB connected
 ```
 
 ### Backend Server Health Check
-Open browser: `http://localhost:5000/api/health`
+Open browser: `https://vacation-clock-6oij.onrender.com/api/health`
 
 Expected response:
 ```json
@@ -134,7 +134,7 @@ Response:
 1. Download [Postman](https://www.postman.com/downloads/)
 2. Create new request
 3. Set method: **POST**
-4. URL: `http://localhost:5000/api/bookings`
+4. URL: `https://vacation-clock-6oij.onrender.com/api/bookings`
 5. Headers tab: Set `Content-Type` to `application/json`
 6. Body (raw JSON):
    ```json
@@ -161,7 +161,7 @@ The frontend automatically:
 
 Frontend API client configured in `src/services/api.js`:
 ```javascript
-baseURL: 'http://localhost:5000/api'
+baseURL: 'https://vacation-clock-6oij.onrender.com/api'
 ```
 
 ## Booking ID Format
@@ -191,7 +191,7 @@ listen EADDRINUSE :::5000
 ```
 Access to XMLHttpRequest blocked by CORS policy
 ```
-**Solution**: Already configured in backend, ensure `http://localhost:5000` is accessible
+**Solution**: Already configured in backend, ensure `https://vacation-clock-6oij.onrender.com/` is accessible
 
 ### Axios Request Timeout
 - Frontend automatically falls back to temporary booking ID
