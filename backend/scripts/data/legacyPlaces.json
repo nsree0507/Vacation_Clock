@@ -1,0 +1,3092 @@
+[
+  {
+    "name": "Hyderabad",
+    "slug": "hyderabad",
+    "state": "Telangana",
+    "category": "Corporate",
+    "description": "The City of Pearls - Modern metros meets historic charm with Charminar, biryani, and tech parks",
+    "rating": 4.6,
+    "price": 12999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Old City Heritage Tour",
+      "Biryani & Markets",
+      "Corporate experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Hyderabad"
+      },
+      {
+        "day": 2,
+        "title": "Old City Heritage Tour"
+      },
+      {
+        "day": 3,
+        "title": "Biryani & Markets"
+      }
+    ]
+  },
+  {
+    "name": "Warangal",
+    "slug": "warangal",
+    "state": "Telangana",
+    "category": "Heritage",
+    "description": "Ancient fort city with 12th-century architecture and rich cultural heritage",
+    "rating": 4.7,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Warangal Fort Tour",
+      "Thousand Pillar Temple",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Warangal"
+      },
+      {
+        "day": 2,
+        "title": "Warangal Fort Tour"
+      }
+    ]
+  },
+  {
+    "name": "Ramappa Temple",
+    "slug": "ramappa-temple",
+    "state": "Telangana",
+    "category": "Heritage",
+    "description": "UNESCO World Heritage temple with stunning architecture and intricate carvings",
+    "rating": 4.6,
+    "price": 7999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Ramappa Temple Exploration",
+      "Local Village Experience",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival near Ramappa"
+      },
+      {
+        "day": 2,
+        "title": "Ramappa Temple Exploration"
+      }
+    ]
+  },
+  {
+    "name": "Nagarjuna Sagar",
+    "slug": "nagarjuna-sagar",
+    "state": "Telangana",
+    "category": "Religious",
+    "description": "Sacred reservoir with ancient dam and religious significance",
+    "rating": 4.2,
+    "price": 4999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Dam & Reservoir Tour",
+      "Temple Visit",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival at Dam"
+      }
+    ]
+  },
+  {
+    "name": "Yadadri (Yadagirigutta)",
+    "slug": "yadadri",
+    "state": "Telangana",
+    "category": "Religious",
+    "description": "Sacred pilgrimage site with ancient temple on hilltop",
+    "rating": 4.8,
+    "price": 4999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Hilltop Temple Trek",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival at Yadadri"
+      }
+    ]
+  },
+  {
+    "name": "Bhadrachalam",
+    "slug": "bhadrachalam",
+    "state": "Telangana",
+    "category": "Religious",
+    "description": "Sacred temple town on the banks of Godavari River",
+    "rating": 4.6,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Temple Darshan",
+      "Godavari River Cruise",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Bhadrachalam"
+      },
+      {
+        "day": 2,
+        "title": "Temple Darshan"
+      }
+    ]
+  },
+  {
+    "name": "Medak",
+    "slug": "medak",
+    "state": "Telangana",
+    "category": "Heritage",
+    "description": "Historic fort town with architectural heritage",
+    "rating": 4.8,
+    "price": 4999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Medak Fort Exploration",
+      "Local Culture",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Medak"
+      }
+    ]
+  },
+  {
+    "name": "Vikarabad",
+    "slug": "vikarabad",
+    "state": "Telangana",
+    "category": "Adventure",
+    "description": "Wildlife sanctuary with nature trails and adventure activities",
+    "rating": 4.7,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Wildlife Sanctuary Tour",
+      "Trekking Adventure",
+      "Adventure experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Vikarabad"
+      },
+      {
+        "day": 2,
+        "title": "Wildlife Sanctuary Tour"
+      }
+    ]
+  },
+  {
+    "name": "Basar",
+    "slug": "basar",
+    "state": "Telangana",
+    "category": "Religious",
+    "description": "Sacred pilgrimage town with ancient Saraswati temple",
+    "rating": 4.7,
+    "price": 4999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Saraswati Temple Darshan",
+      "River Meditation",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival at Basar"
+      }
+    ]
+  },
+  {
+    "name": "Adilabad",
+    "slug": "adilabad",
+    "state": "Telangana",
+    "category": "Nature",
+    "description": "Tribal district with forests, waterfalls, and authentic culture",
+    "rating": 4.4,
+    "price": 11999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Forest & Waterfall Exploration",
+      "Tribal Village Tour",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Adilabad"
+      },
+      {
+        "day": 2,
+        "title": "Forest & Waterfall Exploration"
+      },
+      {
+        "day": 3,
+        "title": "Tribal Village Tour"
+      }
+    ]
+  },
+  {
+    "name": "Tirupati",
+    "slug": "tirupati",
+    "state": "Andhra Pradesh",
+    "category": "Religious",
+    "description": "Sacred pilgrimage destination with world-famous Sri Venkateswara Temple",
+    "rating": 4.8,
+    "price": 10999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Tirupati Temple Darshan",
+      "Tirupati Heritage Tour",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Tirupati"
+      },
+      {
+        "day": 2,
+        "title": "Tirupati Temple Darshan"
+      },
+      {
+        "day": 3,
+        "title": "Tirupati Heritage Tour"
+      }
+    ]
+  },
+  {
+    "name": "Araku Valley",
+    "slug": "araku-valley",
+    "state": "Andhra Pradesh",
+    "category": "Nature",
+    "description": "Hill station with scenic landscapes, coffee plantations, and tribal culture",
+    "rating": 4.4,
+    "price": 11999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Coffee Plantation Tour",
+      "Tribal Village Trek",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Araku Valley"
+      },
+      {
+        "day": 2,
+        "title": "Coffee Plantation Tour"
+      }
+    ]
+  },
+  {
+    "name": "Visakhapatnam",
+    "slug": "visakhapatnam",
+    "state": "Andhra Pradesh",
+    "category": "Beaches",
+    "description": "Coastal city with beaches, steel plants heritage, and seaside charm",
+    "rating": 4.4,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Beach & Scenic Views",
+      "Historical Sites",
+      "Beaches experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Visakhapatnam"
+      },
+      {
+        "day": 2,
+        "title": "Beach & Scenic Views"
+      }
+    ]
+  },
+  {
+    "name": "Vijayawada",
+    "slug": "vijayawada",
+    "state": "Andhra Pradesh",
+    "category": "Heritage",
+    "description": "River city with temples, cultural heritage, and local markets",
+    "rating": 4.3,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Kanaka Durga Temple Tour",
+      "Krishna River Cruise",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Vijayawada"
+      },
+      {
+        "day": 2,
+        "title": "Kanaka Durga Temple Tour"
+      }
+    ]
+  },
+  {
+    "name": "Srisailam",
+    "slug": "srisailam",
+    "state": "Andhra Pradesh",
+    "category": "Religious",
+    "description": "Sacred pilgrimage site with ancient temple in picturesque setting",
+    "rating": 4.9,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Bhramarambha Temple Darshan",
+      "Nature Trek",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival at Srisailam"
+      },
+      {
+        "day": 2,
+        "title": "Bhramarambha Temple Darshan"
+      }
+    ]
+  },
+  {
+    "name": "Lepakshi",
+    "slug": "lepakshi",
+    "state": "Andhra Pradesh",
+    "category": "Heritage",
+    "description": "Ancient village with magnificent temple and intricate stone work",
+    "rating": 4.5,
+    "price": 5999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Veerabhadra Temple Tour",
+      "Village Experience",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival at Lepakshi"
+      }
+    ]
+  },
+  {
+    "name": "Rajahmundry",
+    "slug": "rajahmundry",
+    "state": "Andhra Pradesh",
+    "category": "Heritage",
+    "description": "Historic city on Godavari River with temples and river cruises",
+    "rating": 4.9,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Godavari River Cruise",
+      "Temple & History Tour",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Rajahmundry"
+      },
+      {
+        "day": 2,
+        "title": "Godavari River Cruise"
+      }
+    ]
+  },
+  {
+    "name": "Amaravati",
+    "slug": "amaravati",
+    "state": "Andhra Pradesh",
+    "category": "Corporate",
+    "description": "Capital city with new cultural developments and river-side beauty",
+    "rating": 4.6,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Museum & Cultural Tour",
+      "River Cruise",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Amaravati"
+      },
+      {
+        "day": 2,
+        "title": "Museum & Cultural Tour"
+      }
+    ]
+  },
+  {
+    "name": "Munnar",
+    "slug": "munnar",
+    "state": "Kerala",
+    "category": "Nature",
+    "description": "Scenic hill station with tea plantations, misty mornings, and mountain vistas",
+    "rating": 4.3,
+    "price": 15999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Tea Plantation Tours",
+      "Mountain Trekking",
+      "Relaxation & Departure"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Munnar"
+      },
+      {
+        "day": 2,
+        "title": "Tea Plantation Tours"
+      },
+      {
+        "day": 3,
+        "title": "Mountain Trekking"
+      }
+    ]
+  },
+  {
+    "name": "Wayanad",
+    "slug": "wayanad",
+    "state": "Kerala",
+    "category": "Nature",
+    "description": "Lush green district with waterfalls, coffee estates, and spice plantations",
+    "rating": 4.9,
+    "price": 14999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Waterfall & Nature Trails",
+      "Spice Plantation Tour",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Wayanad"
+      },
+      {
+        "day": 2,
+        "title": "Waterfall & Nature Trails"
+      },
+      {
+        "day": 3,
+        "title": "Spice Plantation Tour"
+      }
+    ]
+  },
+  {
+    "name": "Alleppey",
+    "slug": "alleppey",
+    "state": "Kerala",
+    "category": "Beaches",
+    "description": "Venice of the East with backwater cruises and serene canals",
+    "rating": 4.2,
+    "price": 16999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Houseboat Backwater Cruise",
+      "Beach & Fishing Village Experience",
+      "Spa & Departure"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Alleppey"
+      },
+      {
+        "day": 2,
+        "title": "Houseboat Backwater Cruise"
+      },
+      {
+        "day": 3,
+        "title": "Beach & Fishing Village Experience"
+      }
+    ]
+  },
+  {
+    "name": "Kochi",
+    "slug": "kochi",
+    "state": "Kerala",
+    "category": "Heritage",
+    "description": "Historic port city blending colonial charm with modern culture",
+    "rating": 4.2,
+    "price": 12999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Colonial Heritage Tour",
+      "Backwater Cruise",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Kochi"
+      },
+      {
+        "day": 2,
+        "title": "Colonial Heritage Tour"
+      }
+    ]
+  },
+  {
+    "name": "Thekkady",
+    "slug": "thekkady",
+    "state": "Kerala",
+    "category": "Nature",
+    "description": "Wildlife sanctuary with spice plantations and boat safaris",
+    "rating": 4.7,
+    "price": 12999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Periyar Lake Safari",
+      "Spice Plantation Tour",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival at Thekkady"
+      },
+      {
+        "day": 2,
+        "title": "Periyar Lake Safari"
+      }
+    ]
+  },
+  {
+    "name": "Kovalam",
+    "slug": "kovalam",
+    "state": "Kerala",
+    "category": "Beaches",
+    "description": "Picturesque beach resort with golden sands and Ayurveda treatments",
+    "rating": 4.3,
+    "price": 14999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Beach & Water Sports",
+      "Ayurveda Wellness",
+      "Beaches experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Kovalam"
+      },
+      {
+        "day": 2,
+        "title": "Beach & Water Sports"
+      },
+      {
+        "day": 3,
+        "title": "Ayurveda Wellness"
+      }
+    ]
+  },
+  {
+    "name": "Varkala",
+    "slug": "varkala",
+    "state": "Kerala",
+    "category": "Beaches",
+    "description": "Cliffside beach town with spiritual significance and mineral springs",
+    "rating": 4.4,
+    "price": 11999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Beach & Cliff Walk",
+      "Mineral Spring Bath",
+      "Beaches experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Varkala"
+      },
+      {
+        "day": 2,
+        "title": "Beach & Cliff Walk"
+      }
+    ]
+  },
+  {
+    "name": "Hampi",
+    "slug": "hampi",
+    "state": "Karnataka",
+    "category": "Heritage",
+    "description": "UNESCO World Heritage site with ancient temple ruins and boulders",
+    "rating": 4.7,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Temple Complex Tour",
+      "Tungabhadra River Cruise",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Hampi"
+      },
+      {
+        "day": 2,
+        "title": "Temple Complex Tour"
+      }
+    ]
+  },
+  {
+    "name": "Mysore",
+    "slug": "mysore",
+    "state": "Karnataka",
+    "category": "Heritage",
+    "description": "Palace city with royal heritage, silk and sandalwood traditions",
+    "rating": 4.5,
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Mysore Palace Tour",
+      "Local Markets & Craft",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Mysore"
+      },
+      {
+        "day": 2,
+        "title": "Mysore Palace Tour"
+      }
+    ]
+  },
+  {
+    "name": "Coorg",
+    "slug": "coorg",
+    "state": "Karnataka",
+    "category": "Nature",
+    "description": "Lush coffee country with misty hills and plantation estates",
+    "rating": 4.2,
+    "price": 13999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Coffee Plantation Tour",
+      "Trekking & Waterfalls",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Coorg"
+      },
+      {
+        "day": 2,
+        "title": "Coffee Plantation Tour"
+      },
+      {
+        "day": 3,
+        "title": "Trekking & Waterfalls"
+      }
+    ]
+  },
+  {
+    "name": "Ooty (Udhagamandalam)",
+    "slug": "ooty",
+    "state": "Tamil Nadu",
+    "category": "Nature",
+    "description": "Queen of hill stations with flower gardens and toy train rides",
+    "rating": 4.7,
+    "price": 12999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Flower Garden & Toy Train",
+      "Mountain Trekking",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Ooty"
+      },
+      {
+        "day": 2,
+        "title": "Flower Garden & Toy Train"
+      },
+      {
+        "day": 3,
+        "title": "Mountain Trekking"
+      }
+    ]
+  },
+  {
+    "name": "Jaipur",
+    "slug": "jaipur",
+    "state": "Rajasthan",
+    "category": "Heritage",
+    "description": "Pink City with palaces, forts and vibrant culture",
+    "rating": 4.5,
+    "price": 11999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Hawa Mahal & City Palace",
+      "Local Markets",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Jaipur"
+      },
+      {
+        "day": 2,
+        "title": "Hawa Mahal & City Palace"
+      }
+    ]
+  },
+  {
+    "name": "Udaipur",
+    "slug": "udaipur",
+    "state": "Rajasthan",
+    "category": "Honeymoon",
+    "description": "City of lakes with romantic palaces and pristine waters",
+    "rating": 4.8,
+    "price": 16999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Lake Palace & Boat Cruise",
+      "Local Culture & Shopping",
+      "Honeymoon experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Udaipur"
+      },
+      {
+        "day": 2,
+        "title": "Lake Palace & Boat Cruise"
+      },
+      {
+        "day": 3,
+        "title": "Local Culture & Shopping"
+      }
+    ]
+  },
+  {
+    "name": "Manali",
+    "slug": "manali",
+    "state": "Himachal Pradesh",
+    "category": "Adventure",
+    "description": "Adventure hub with mountain peaks, paragliding and trekking",
+    "rating": 4.6,
+    "price": 14999,
+    "days": 4,
+    "nights": 3,
+    "highlights": [
+      "Solang Valley Adventure",
+      "Mountain Views",
+      "Adventure experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Manali"
+      },
+      {
+        "day": 2,
+        "title": "Solang Valley Adventure"
+      },
+      {
+        "day": 3,
+        "title": "Mountain Views"
+      },
+      {
+        "day": 4,
+        "title": "Departure"
+      }
+    ]
+  },
+  {
+    "name": "Shimla",
+    "slug": "shimla",
+    "state": "Himachal Pradesh",
+    "category": "Nature",
+    "description": "Colonial hill station with toy train and scenic vistas",
+    "rating": 4.8,
+    "price": 12999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Toy Train & Mall Road",
+      "Nature Walks",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Shimla"
+      },
+      {
+        "day": 2,
+        "title": "Toy Train & Mall Road"
+      },
+      {
+        "day": 3,
+        "title": "Nature Walks"
+      }
+    ]
+  },
+  {
+    "name": "Goa Beaches",
+    "slug": "goa-beaches",
+    "state": "Goa",
+    "category": "Beaches",
+    "description": "Golden beaches with water sports, nightlife and beach shacks",
+    "rating": 4.7,
+    "price": 15999,
+    "days": 4,
+    "nights": 3,
+    "highlights": [
+      "Beach & Water Sports",
+      "Portuguese Heritage Tour",
+      "Local Experience"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Goa"
+      },
+      {
+        "day": 2,
+        "title": "Beach & Water Sports"
+      },
+      {
+        "day": 3,
+        "title": "Portuguese Heritage Tour"
+      },
+      {
+        "day": 4,
+        "title": "Local Experience"
+      }
+    ]
+  },
+  {
+    "name": "Rishikesh",
+    "slug": "rishikesh",
+    "state": "Uttarakhand",
+    "category": "Adventure",
+    "description": "Yoga capital with ashrams, adventure sports and spiritual vibes",
+    "rating": 4.6,
+    "price": 11999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Yoga & Meditation",
+      "Adventure Sports",
+      "Adventure experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Rishikesh"
+      },
+      {
+        "day": 2,
+        "title": "Yoga & Meditation"
+      },
+      {
+        "day": 3,
+        "title": "Adventure Sports"
+      }
+    ]
+  },
+  {
+    "name": "Kodaikanal",
+    "slug": "kodaikanal",
+    "state": "Tamil Nadu",
+    "category": "Nature",
+    "description": "Princess of hill stations with lake and forests",
+    "rating": 4.5,
+    "price": 11999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Lake & Forest Exploration",
+      "Local Attractions",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Kodaikanal"
+      },
+      {
+        "day": 2,
+        "title": "Lake & Forest Exploration"
+      }
+    ]
+  },
+  {
+    "name": "Pondicherry",
+    "slug": "pondicherry",
+    "state": "Tamil Nadu",
+    "category": "Beaches",
+    "description": "Coastal town with French colonial charm",
+    "rating": 4.7,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Beach & Promenade Walk",
+      "Beach & Promenade Walk",
+      "Local Attractions"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Pondicherry"
+      },
+      {
+        "day": 2,
+        "title": "Beach & Promenade Walk"
+      }
+    ]
+  },
+  {
+    "name": "Jaisalmer",
+    "slug": "jaisalmer",
+    "state": "Rajasthan",
+    "category": "Heritage",
+    "description": "Golden fort city with desert beauty",
+    "rating": 4.8,
+    "price": 12999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Jaisalmer Fort & Markets",
+      "Desert Safari",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Jaisalmer"
+      },
+      {
+        "day": 2,
+        "title": "Jaisalmer Fort & Markets"
+      }
+    ]
+  },
+  {
+    "name": "Mount Abu",
+    "slug": "mount-abu",
+    "state": "Rajasthan",
+    "category": "Nature",
+    "description": "Only hill station in Rajasthan with temples",
+    "rating": 4.2,
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Dilwara Temples Tour",
+      "Scenic Views & Nature",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Mount Abu"
+      },
+      {
+        "day": 2,
+        "title": "Dilwara Temples Tour"
+      }
+    ]
+  },
+  {
+    "name": "Dharamshala",
+    "slug": "dharamshala",
+    "state": "Himachal Pradesh",
+    "category": "Spiritual",
+    "description": "Mountain town with spiritual and adventure vibes",
+    "rating": 4.2,
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Spiritual Sites & Meditation",
+      "Trekking Adventure",
+      "Spiritual experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Dharamshala"
+      },
+      {
+        "day": 2,
+        "title": "Spiritual Sites & Meditation"
+      }
+    ]
+  },
+  {
+    "name": "Mussoorie",
+    "slug": "mussoorie",
+    "state": "Uttarakhand",
+    "category": "Nature",
+    "description": "Queen of hills with scenic beauty",
+    "rating": 4.8,
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Scenic Walks & Viewpoints",
+      "Local Attractions",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Mussoorie"
+      },
+      {
+        "day": 2,
+        "title": "Scenic Walks & Viewpoints"
+      }
+    ]
+  },
+  {
+    "name": "Nainital",
+    "slug": "nainital",
+    "state": "Uttarakhand",
+    "category": "Nature",
+    "description": "Lake district with adventure and relaxation",
+    "rating": 4.8,
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Lake & Mountain Activities",
+      "Local Exploration",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Nainital"
+      },
+      {
+        "day": 2,
+        "title": "Lake & Mountain Activities"
+      }
+    ]
+  },
+  {
+    "name": "Auli",
+    "slug": "auli",
+    "state": "Uttarakhand",
+    "category": "Adventure",
+    "description": "Skiing destination with scenic mountain beauty",
+    "rating": 4.3,
+    "price": 12999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Skiing & Snow Sports",
+      "Mountain Views",
+      "Adventure experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Auli"
+      },
+      {
+        "day": 2,
+        "title": "Skiing & Snow Sports"
+      }
+    ]
+  },
+  {
+    "name": "Gokarna",
+    "slug": "gokarna",
+    "state": "Goa",
+    "category": "Beaches",
+    "description": "Beach paradise with pilgrimage site",
+    "rating": 4.9,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Beach Exploration",
+      "Local Culture",
+      "Beaches experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Gokarna"
+      },
+      {
+        "day": 2,
+        "title": "Beach Exploration"
+      }
+    ]
+  },
+  {
+    "name": "Khajuraho",
+    "slug": "khajuraho",
+    "state": "Madhya Pradesh",
+    "category": "Heritage",
+    "description": "UNESCO temples with intricate carvings",
+    "rating": 4.7,
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Temple Complex Tour",
+      "Light Show & Culture",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Khajuraho"
+      },
+      {
+        "day": 2,
+        "title": "Temple Complex Tour"
+      }
+    ]
+  },
+  {
+    "name": "Orchha",
+    "slug": "orchha",
+    "state": "Madhya Pradesh",
+    "category": "Heritage",
+    "description": "Fort and palace town on Betwa River",
+    "rating": 4.3,
+    "price": 7999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Fort & Palace Exploration",
+      "River & Local Exploration",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Orchha"
+      }
+    ]
+  },
+  {
+    "name": "Pachmarhi",
+    "slug": "pachmarhi",
+    "state": "Madhya Pradesh",
+    "category": "Nature",
+    "description": "Hill station with waterfalls and caves",
+    "rating": 4.3,
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Waterfall & Cave Exploration",
+      "Forest & Mountain Trekking",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Pachmarhi"
+      },
+      {
+        "day": 2,
+        "title": "Waterfall & Cave Exploration"
+      }
+    ]
+  },
+  {
+    "name": "Kutch",
+    "slug": "kutch",
+    "state": "Gujarat",
+    "category": "Heritage",
+    "description": "Salt desert with tribal culture and crafts",
+    "rating": 4.9,
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "White Desert & Villages",
+      "Local Crafts Experience",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Kutch"
+      },
+      {
+        "day": 2,
+        "title": "White Desert & Villages"
+      }
+    ]
+  },
+  {
+    "name": "Mumbai",
+    "slug": "mumbai",
+    "state": "Maharashtra",
+    "category": "Corporate",
+    "description": "Vibrant metropolis with beaches and monuments",
+    "rating": 4.7,
+    "price": 12999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Gateway & Marine Drive",
+      "Markets & Culture",
+      "Corporate experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Mumbai"
+      },
+      {
+        "day": 2,
+        "title": "Gateway & Marine Drive"
+      }
+    ]
+  },
+  {
+    "name": "Darjeeling",
+    "slug": "darjeeling",
+    "state": "West Bengal",
+    "category": "Nature",
+    "description": "Tea gardens with toy train and Kanchenjunga views",
+    "rating": 4.5,
+    "price": 12999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Toy Train & Mountain Views",
+      "Tea Estate Tour",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Darjeeling"
+      },
+      {
+        "day": 2,
+        "title": "Toy Train & Mountain Views"
+      },
+      {
+        "day": 3,
+        "title": "Tea Estate Tour"
+      }
+    ]
+  },
+  {
+    "name": "Cherrapunji",
+    "slug": "cherrapunji",
+    "state": "Meghalaya",
+    "category": "Nature",
+    "description": "Wettest place on Earth with spectacular waterfalls and canyons",
+    "rating": 4.9,
+    "price": 12999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Waterfall & Canyon Exploration",
+      "Village & Culture",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Cherrapunji"
+      },
+      {
+        "day": 2,
+        "title": "Waterfall & Canyon Exploration"
+      },
+      {
+        "day": 3,
+        "title": "Village & Culture"
+      }
+    ]
+  },
+  {
+    "name": "Tawang",
+    "slug": "tawang",
+    "state": "Arunachal Pradesh",
+    "category": "Spiritual",
+    "description": "Buddhist monastery in mountain pass at high altitude",
+    "rating": 4.2,
+    "price": 13999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Tawang Monastery & Culture",
+      "Mountain Exploration",
+      "Spiritual experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Tawang"
+      },
+      {
+        "day": 2,
+        "title": "Tawang Monastery & Culture"
+      },
+      {
+        "day": 3,
+        "title": "Mountain Exploration"
+      }
+    ]
+  },
+  {
+    "name": "Ziro Valley",
+    "slug": "ziro-valley",
+    "state": "Arunachal Pradesh",
+    "category": "Nature",
+    "description": "Scenic valley with tribal villages and cultural heritage",
+    "rating": 4.2,
+    "price": 11999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Valley & Village Exploration",
+      "Local Experience",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Ziro Valley"
+      },
+      {
+        "day": 2,
+        "title": "Valley & Village Exploration"
+      }
+    ]
+  },
+  {
+    "name": "Kaziranga",
+    "slug": "kaziranga",
+    "state": "Assam",
+    "category": "Nature",
+    "description": "Wildlife sanctuary home to one-horned rhinos and diverse fauna",
+    "rating": 4.6,
+    "price": 11999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Safari & Wildlife Spotting",
+      "Nature Experience",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival at Kaziranga"
+      },
+      {
+        "day": 2,
+        "title": "Safari & Wildlife Spotting"
+      }
+    ]
+  },
+  {
+    "name": "Delhi",
+    "slug": "delhi",
+    "state": "Delhi",
+    "category": "Corporate",
+    "description": "Capital city with historic monuments",
+    "rating": 4.6,
+    "price": 11999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Heritage Tour",
+      "Museum & Culture",
+      "Corporate experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Delhi"
+      },
+      {
+        "day": 2,
+        "title": "Heritage Tour"
+      }
+    ]
+  },
+  {
+    "name": "Amritsar",
+    "slug": "amritsar",
+    "state": "Punjab",
+    "category": "Religious",
+    "description": "Golden Temple city with heritage",
+    "rating": 4.5,
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Golden Temple Darshan",
+      "Heritage & Culture",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Amritsar"
+      },
+      {
+        "day": 2,
+        "title": "Golden Temple Darshan"
+      }
+    ]
+  },
+  {
+    "name": "Srinagar",
+    "slug": "srinagar",
+    "state": "Jammu Kashmir",
+    "category": "Nature",
+    "description": "Valley of Kashmir with lakes and gardens",
+    "rating": 4.5,
+    "price": 14999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Houseboat & Dal Lake",
+      "Gardens & Local Culture",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Srinagar"
+      },
+      {
+        "day": 2,
+        "title": "Houseboat & Dal Lake"
+      },
+      {
+        "day": 3,
+        "title": "Gardens & Local Culture"
+      }
+    ]
+  },
+  {
+    "name": "Leh Ladakh",
+    "slug": "leh-ladakh",
+    "state": "Jammu Kashmir",
+    "category": "Adventure",
+    "description": "High altitude desert with Buddhist monasteries",
+    "rating": 4.7,
+    "price": 16999,
+    "days": 4,
+    "nights": 3,
+    "highlights": [
+      "Monastery & Culture Tour",
+      "Mountain Adventure",
+      "Adventure experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Leh"
+      },
+      {
+        "day": 2,
+        "title": "Monastery & Culture Tour"
+      },
+      {
+        "day": 3,
+        "title": "Mountain Adventure"
+      },
+      {
+        "day": 4,
+        "title": "Departure"
+      }
+    ]
+  },
+  {
+    "name": "Sundarbans",
+    "slug": "sundarbans",
+    "state": "West Bengal",
+    "category": "Nature",
+    "description": "Tiger reserve and mangrove forests",
+    "rating": 4.7,
+    "price": 13999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Tiger Safari & Wildlife",
+      "Mangrove Forest Experience",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Sundarbans"
+      },
+      {
+        "day": 2,
+        "title": "Tiger Safari & Wildlife"
+      },
+      {
+        "day": 3,
+        "title": "Mangrove Forest Experience"
+      }
+    ]
+  },
+  {
+    "name": "Konark",
+    "slug": "konark",
+    "state": "Odisha",
+    "category": "Heritage",
+    "description": "Sun Temple UNESCO World Heritage site",
+    "rating": 4.2,
+    "price": 6999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Sun Temple Tour",
+      "Beach & Local Exploration",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival at Konark"
+      }
+    ]
+  },
+  {
+    "name": "Puri",
+    "slug": "puri",
+    "state": "Odisha",
+    "category": "Beaches",
+    "description": "Beach town with Jagannath Temple",
+    "rating": 4.6,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Jagannath Temple Darshan",
+      "Beach & Local Culture",
+      "Beaches experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Puri"
+      },
+      {
+        "day": 2,
+        "title": "Jagannath Temple Darshan"
+      }
+    ]
+  },
+  {
+    "name": "Kurukshetra",
+    "slug": "kurukshetra",
+    "state": "Haryana",
+    "category": "Religious",
+    "description": "Pilgrimage center with historic temples and spiritual significance",
+    "rating": 4.3,
+    "price": 7999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Temple Tour",
+      "Spiritual Experience",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Temple Tour"
+      }
+    ]
+  },
+  {
+    "name": "Panchkula",
+    "slug": "panchkula",
+    "state": "Haryana",
+    "category": "Nature",
+    "description": "Garden city with nature trails and peaceful environment",
+    "rating": 4.3,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Nature Trail",
+      "Local Experience",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Nature Trail"
+      }
+    ]
+  },
+  {
+    "name": "Bodh Gaya",
+    "slug": "bodh-gaya",
+    "state": "Bihar",
+    "category": "Religious",
+    "description": "Most sacred Buddhist pilgrimage site where Buddha attained enlightenment",
+    "rating": 4.8,
+    "price": 9999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Mahabodhi Temple",
+      "Buddhist Sites",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Mahabodhi Temple"
+      },
+      {
+        "day": 3,
+        "title": "Buddhist Sites"
+      }
+    ]
+  },
+  {
+    "name": "Nalanda",
+    "slug": "nalanda",
+    "state": "Bihar",
+    "category": "Heritage",
+    "description": "Ancient university and archaeological site",
+    "rating": 4.5,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "University Ruins",
+      "Museum Visit",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "University Ruins"
+      }
+    ]
+  },
+  {
+    "name": "Ranchi",
+    "slug": "ranchi-city",
+    "state": "Jharkhand",
+    "category": "Nature",
+    "description": "Capital city with waterfalls and natural beauty",
+    "rating": 4.5,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Waterfall Tour",
+      "Local Experience",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Waterfall Tour"
+      }
+    ]
+  },
+  {
+    "name": "Hundru Falls",
+    "slug": "hundru-falls",
+    "state": "Jharkhand",
+    "category": "Nature",
+    "description": "Spectacular waterfall and natural wonder",
+    "rating": 4.3,
+    "price": 6999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Falls Tour",
+      "Adventure Activities",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      }
+    ]
+  },
+  {
+    "name": "Chitrakoot Falls",
+    "slug": "chitrakoot-falls",
+    "state": "Chhattisgarh",
+    "category": "Nature",
+    "description": "India's Niagara Falls - spectacular waterfall",
+    "rating": 4.5,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Falls Exploration",
+      "Nature Walk",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Falls Exploration"
+      }
+    ]
+  },
+  {
+    "name": "Bastar",
+    "slug": "bastar-crafts",
+    "state": "Chhattisgarh",
+    "category": "Cultural",
+    "description": "Tribal heartland with traditional crafts",
+    "rating": 4.9,
+    "price": 10999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Craft Workshop",
+      "Village Tour",
+      "Cultural experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Craft Workshop"
+      },
+      {
+        "day": 3,
+        "title": "Village Tour"
+      }
+    ]
+  },
+  {
+    "name": "Taj Mahal Experience",
+    "slug": "taj-mahal-direct",
+    "state": "Uttar Pradesh",
+    "category": "Heritage",
+    "description": "World monument to love - Taj Mahal",
+    "rating": 4.9,
+    "price": 11999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Taj Mahal Sunrise",
+      "Agra Fort & Market",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Taj Mahal Sunrise"
+      },
+      {
+        "day": 3,
+        "title": "Agra Fort & Market"
+      }
+    ]
+  },
+  {
+    "name": "Varanasi Holy City",
+    "slug": "varanasi-main",
+    "state": "Uttar Pradesh",
+    "category": "Religious",
+    "description": "Sacred city on Ganges with spiritual essence",
+    "rating": 4.5,
+    "price": 10999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Ganges Ceremonies",
+      "Temple Visit",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Ganges Ceremonies"
+      },
+      {
+        "day": 3,
+        "title": "Temple Visit"
+      }
+    ]
+  },
+  {
+    "name": "Aizawl",
+    "slug": "aizawl-capital",
+    "state": "Mizoram",
+    "category": "Cultural",
+    "description": "Capital city with tribal culture and traditions",
+    "rating": 4.9,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Cultural Tour",
+      "Local Market",
+      "Cultural experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Cultural Tour"
+      }
+    ]
+  },
+  {
+    "name": "Champhai",
+    "slug": "champhai",
+    "state": "Mizoram",
+    "category": "Nature",
+    "description": "Border town with scenic beauty and culture",
+    "rating": 4.3,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Border Visit",
+      "Village Culture",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Border Visit"
+      }
+    ]
+  },
+  {
+    "name": "Loktal Lake",
+    "slug": "loktal-lake",
+    "state": "Manipur",
+    "category": "Nature",
+    "description": "Floating island lake with unique ecosystem",
+    "rating": 4.7,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Lake Safari",
+      "Photography Tour",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Lake Safari"
+      }
+    ]
+  },
+  {
+    "name": "Imphal",
+    "slug": "imphal-city",
+    "state": "Manipur",
+    "category": "Cultural",
+    "description": "Capital with cultural sites and markets",
+    "rating": 4.3,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Temple & Palace Tour",
+      "Market Experience",
+      "Cultural experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Temple & Palace Tour"
+      }
+    ]
+  },
+  {
+    "name": "Kohima",
+    "slug": "kohima-capital",
+    "state": "Nagaland",
+    "category": "Cultural",
+    "description": "Capital with tribal culture and Hornbill Festival",
+    "rating": 4.6,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Cultural Tour",
+      "Local Markets",
+      "Cultural experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Cultural Tour"
+      },
+      {
+        "day": 2,
+        "title": "Local Markets"
+      }
+    ]
+  },
+  {
+    "name": "Dimapur",
+    "slug": "dimapur",
+    "state": "Nagaland",
+    "category": "Urban",
+    "description": "Commercial hub with cultural attractions",
+    "rating": 4.6,
+    "price": 6999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Markets & Bazaar",
+      "Urban experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      }
+    ]
+  },
+  {
+    "name": "Gangtok",
+    "slug": "gangtok-sikkim",
+    "state": "Sikkim",
+    "category": "Spiritual",
+    "description": "Capital with Kanchenjunga views and Buddhist culture",
+    "rating": 4.4,
+    "price": 0,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Monastery Visit",
+      "Viewpoint Tour",
+      "Spiritual experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Monastery Visit"
+      },
+      {
+        "day": 3,
+        "title": "Viewpoint Tour"
+      }
+    ]
+  },
+  {
+    "name": "Darjeeling (Sikkim)",
+    "slug": "darjeeling-sikkim",
+    "state": "Sikkim",
+    "category": "Nature",
+    "description": "Hill station with toy train and tea gardens",
+    "rating": 4.6,
+    "price": 0,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Toy Train Ride",
+      "Tea Garden Tour",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Toy Train Ride"
+      },
+      {
+        "day": 3,
+        "title": "Tea Garden Tour"
+      }
+    ]
+  },
+  {
+    "name": "Agartala",
+    "slug": "agartala-city",
+    "state": "Tripura",
+    "category": "Heritage",
+    "description": "Capital city with palaces and cultural heritage",
+    "rating": 4.9,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Palace Tour",
+      "Local Market",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Palace Tour"
+      }
+    ]
+  },
+  {
+    "name": "Ujjayanta Palace",
+    "slug": "ujjayanta-palace",
+    "state": "Tripura",
+    "category": "Heritage",
+    "description": "Majestic palace and museum",
+    "rating": 4.8,
+    "price": 5999,
+    "days": 4,
+    "nights": null,
+    "highlights": [
+      "Palace Tour",
+      "Museum Visit",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Palace Tour"
+      },
+      {
+        "day": 3,
+        "title": "Museum Visit"
+      },
+      {
+        "day": 4,
+        "title": "Departure"
+      }
+    ]
+  },
+  {
+    "name": "Red Fort",
+    "slug": "red-fort",
+    "state": "Delhi",
+    "category": "Heritage",
+    "description": "Historic UNESCO site and national monument",
+    "rating": 4.9,
+    "price": 4999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Fort Exploration",
+      "Photography",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      }
+    ]
+  },
+  {
+    "name": "Qutub Minar",
+    "slug": "qutub-minar",
+    "state": "Delhi",
+    "category": "Heritage",
+    "description": "Historic minaret and archaeological site",
+    "rating": 4.5,
+    "price": 5999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Monument Tour",
+      "Local Market",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      }
+    ]
+  },
+  {
+    "name": "India Gate & Central Delhi",
+    "slug": "india-gate",
+    "state": "Delhi",
+    "category": "Heritage",
+    "description": "National monument and capital city heart",
+    "rating": 4.3,
+    "price": 4999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Monument Tour",
+      "Shopping & Food",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      }
+    ]
+  },
+  {
+    "name": "New Delhi Tour",
+    "slug": "new-delhi-tour",
+    "state": "Delhi",
+    "category": "Urban",
+    "description": "Capital city with government buildings, museums, and monuments",
+    "rating": 4.8,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Government Tour",
+      "Shopping & Dining",
+      "Urban experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Government Tour"
+      }
+    ]
+  },
+  {
+    "name": "Ajanta Caves",
+    "slug": "ajanta-caves",
+    "state": "Maharashtra",
+    "category": "Heritage",
+    "description": "UNESCO World Heritage rock-cut Buddhist temples",
+    "rating": 4.6,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Cave Exploration",
+      "Spiritual Experience",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Cave Exploration"
+      }
+    ]
+  },
+  {
+    "name": "Ellora Caves",
+    "slug": "ellora-caves",
+    "state": "Maharashtra",
+    "category": "Heritage",
+    "description": "Cave temples representing three religions",
+    "rating": 4.4,
+    "price": 6999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Cave Temple Tour",
+      "Photography",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      }
+    ]
+  },
+  {
+    "name": "Aurangabad",
+    "slug": "aurangabad",
+    "state": "Maharashtra",
+    "category": "Heritage",
+    "description": "Historic city with caves and cultural heritage",
+    "rating": 4.2,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Caves & Monuments",
+      "Local Markets",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Caves & Monuments"
+      }
+    ]
+  },
+  {
+    "name": "Ludhiana",
+    "slug": "ludhiana-punjab",
+    "state": "Punjab",
+    "category": "Corporate",
+    "description": "Industrial and cultural hub of Punjab",
+    "rating": 4.9,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "City Tour",
+      "Local Experience",
+      "Corporate experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "City Tour"
+      }
+    ]
+  },
+  {
+    "name": "Jallianwala Bagh Memorial",
+    "slug": "jallianwala-bagh-mem",
+    "state": "Punjab",
+    "category": "Heritage",
+    "description": "Historic memorial of national significance",
+    "rating": 4.9,
+    "price": 5999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Memorial Tour",
+      "Reflection",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      }
+    ]
+  },
+  {
+    "name": "Patiala",
+    "slug": "patiala-city",
+    "state": "Punjab",
+    "category": "Heritage",
+    "description": "Royal city with palaces and cultural heritage",
+    "rating": 4.2,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Palace Tour",
+      "Cultural Experience",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Palace Tour"
+      }
+    ]
+  },
+  {
+    "name": "Guwahati",
+    "slug": "guwahati-city",
+    "state": "Assam",
+    "category": "Urban",
+    "description": "Gateway to Northeast with temples and culture",
+    "rating": 4.4,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Temple Tour",
+      "River Cruise",
+      "Urban experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Temple Tour"
+      }
+    ]
+  },
+  {
+    "name": "Majuli Island",
+    "slug": "majuli-island-assam",
+    "state": "Assam",
+    "category": "Cultural",
+    "description": "River island with cultural and spiritual significance",
+    "rating": 4.8,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Cultural Tour",
+      "Local Experience",
+      "Cultural experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Cultural Tour"
+      }
+    ]
+  },
+  {
+    "name": "Tea Garden Tour",
+    "slug": "tea-gardens-assam",
+    "state": "Assam",
+    "category": "Nature",
+    "description": "Explore Assam tea estates and learn about tea production",
+    "rating": 4.3,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Tea Estate Tour",
+      "Tea Tasting",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Tea Estate Tour"
+      }
+    ]
+  },
+  {
+    "name": "Shillong",
+    "slug": "shillong-northeast",
+    "state": "Meghalaya",
+    "category": "Nature",
+    "description": "Abode of clouds with scenic beauty",
+    "rating": 4.3,
+    "price": 11999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Hill Station Tour",
+      "Waterfall Visit",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Hill Station Tour"
+      },
+      {
+        "day": 3,
+        "title": "Waterfall Visit"
+      }
+    ]
+  },
+  {
+    "name": "Dawki",
+    "slug": "dawki-river",
+    "state": "Meghalaya",
+    "category": "Nature",
+    "description": "Crystal clear river with boating activities",
+    "rating": 4.9,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Boat Safari",
+      "Border Visit",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Boat Safari"
+      }
+    ]
+  },
+  {
+    "name": "Mawlynnong",
+    "slug": "mawlynnong-cleanest",
+    "state": "Meghalaya",
+    "category": "Nature",
+    "description": "Asia's cleanest village",
+    "rating": 4.4,
+    "price": 6999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Village Tour",
+      "Nature Walk",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      }
+    ]
+  },
+  {
+    "name": "Itanagar",
+    "slug": "itanagar-ap",
+    "state": "Arunachal Pradesh",
+    "category": "Heritage",
+    "description": "Capital city with ancient fort and cultural sites",
+    "rating": 4.7,
+    "price": 8999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Fort & Museum",
+      "Local Culture",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Fort & Museum"
+      }
+    ]
+  },
+  {
+    "name": "Bomdila",
+    "slug": "bomdila-ap",
+    "state": "Arunachal Pradesh",
+    "category": "Nature",
+    "description": "Hill station with scenic views and monasteries",
+    "rating": 4.4,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Monastery Visit",
+      "Nature Walks",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Monastery Visit"
+      }
+    ]
+  },
+  {
+    "name": "Shillong (Meghalaya North)",
+    "slug": "shillong-north",
+    "state": "Meghalaya",
+    "category": "Nature",
+    "description": "Scotland of the East with scenic waterfalls",
+    "rating": 4.6,
+    "price": 11999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Waterfall Tour",
+      "Viewpoint Hike",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Waterfall Tour"
+      },
+      {
+        "day": 3,
+        "title": "Viewpoint Hike"
+      }
+    ]
+  },
+  {
+    "name": "Statue of Unity",
+    "slug": "statue-of-unity",
+    "state": "Gujarat",
+    "category": "Heritage",
+    "description": "World's tallest statue with scenic valley views",
+    "rating": 4.2,
+    "price": 6999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Statue Tour",
+      "Valley Views",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Statue Tour"
+      }
+    ]
+  },
+  {
+    "name": "Rann of Kutch",
+    "slug": "rann-of-kutch",
+    "state": "Gujarat",
+    "category": "Nature",
+    "description": "Salt desert with tribal culture and crafts",
+    "rating": 4.9,
+    "price": 10999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Desert Safari",
+      "Tribal Experience",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Desert Safari"
+      }
+    ]
+  },
+  {
+    "name": "Somnath Temple",
+    "slug": "somnath-temple",
+    "state": "Gujarat",
+    "category": "Religious",
+    "description": "Sacred coastal temple with spiritual significance",
+    "rating": 4.4,
+    "price": 5999,
+    "days": 1,
+    "nights": null,
+    "highlights": [
+      "Temple Darshan",
+      "Beach Exploration",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      }
+    ]
+  },
+  {
+    "name": "Dwaraka",
+    "slug": "dwaraka-krishna",
+    "state": "Gujarat",
+    "category": "Religious",
+    "description": "Sacred pilgrimage site of Lord Krishna",
+    "rating": 4.2,
+    "price": 9999,
+    "days": 2,
+    "nights": 1,
+    "highlights": [
+      "Temple & Shrine Tour",
+      "Beach & Local Culture",
+      "Religious experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival"
+      },
+      {
+        "day": 2,
+        "title": "Temple & Shrine Tour"
+      }
+    ]
+  },
+  {
+    "name": "Ooty Family Adventure",
+    "slug": "ooty-family",
+    "state": "Tamil Nadu",
+    "category": "Family Trips",
+    "description": "Queen of hill stations with flower gardens, toy train rides, and family-friendly activities perfect for kids",
+    "rating": 4.6,
+    "price": 18999,
+    "days": 4,
+    "nights": 3,
+    "highlights": [
+      "Botanical Gardens & Toy Train",
+      "Lake & Adventure Activities",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Ooty"
+      },
+      {
+        "day": 2,
+        "title": "Botanical Gardens & Toy Train"
+      },
+      {
+        "day": 3,
+        "title": "Lake & Adventure Activities"
+      },
+      {
+        "day": 4,
+        "title": "Departure"
+      }
+    ]
+  },
+  {
+    "name": "Coorg Family Getaway",
+    "slug": "coorg-family",
+    "state": "Karnataka",
+    "category": "Family Trips",
+    "description": "Scenic coffee country with safe trekking trails, swimming in waterfalls, and plantations tours for families",
+    "rating": 4.3,
+    "price": 16999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Coffee Plantation Tour",
+      "Waterfall & Nature Exploration",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival in Coorg"
+      },
+      {
+        "day": 2,
+        "title": "Coffee Plantation Tour"
+      },
+      {
+        "day": 3,
+        "title": "Waterfall & Nature Exploration"
+      }
+    ]
+  },
+  {
+    "name": "Mysore Palace & Heritage",
+    "slug": "mysore-family",
+    "state": "Karnataka",
+    "category": "Family Trips",
+    "description": "Magnificent palace, historical monuments, and family attractions with rich cultural experiences",
+    "rating": 4.8,
+    "price": 15999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Zoo & Local Markets",
+      "Silk & Sandalwood Traditions",
+      "Heritage experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival & Palace Visit"
+      },
+      {
+        "day": 2,
+        "title": "Zoo & Local Markets"
+      },
+      {
+        "day": 3,
+        "title": "Silk & Sandalwood Traditions"
+      }
+    ]
+  },
+  {
+    "name": "Nainital Lake Adventure",
+    "slug": "nainital-family",
+    "state": "Uttarakhand",
+    "category": "Family Trips",
+    "description": "Scenic lake district with boating, ropeway rides, and adventure activities perfect for families",
+    "rating": 4.5,
+    "price": 14999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Lake Boating & Ropeway",
+      "Hiking & Local Cuisine",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival at Nainital"
+      },
+      {
+        "day": 2,
+        "title": "Lake Boating & Ropeway"
+      },
+      {
+        "day": 3,
+        "title": "Hiking & Local Cuisine"
+      }
+    ]
+  },
+  {
+    "name": "Darjeeling Tea & Culture",
+    "slug": "darjeeling-family",
+    "state": "West Bengal",
+    "category": "Family Trips",
+    "description": "Tea gardens with toy train rides, mountain views, and cultural experiences ideal for family bonding",
+    "rating": 4.8,
+    "price": 19999,
+    "days": 4,
+    "nights": 3,
+    "highlights": [
+      "Tea Garden Tours",
+      "Mountain Sunrise & Culture",
+      "Nature experiences for every traveler"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Arrival & Toy Train Ride"
+      },
+      {
+        "day": 2,
+        "title": "Tea Garden Tours"
+      },
+      {
+        "day": 3,
+        "title": "Mountain Sunrise & Culture"
+      },
+      {
+        "day": 4,
+        "title": "Departure"
+      }
+    ]
+  },
+  {
+    "name": "Udaipur Luxury Escape",
+    "slug": "udaipur-luxury",
+    "state": "Rajasthan",
+    "category": "Luxury Trips",
+    "description": "City of lakes with 5-star palace resorts, romantic lakeside dining, and premium Rajasthani hospitality",
+    "rating": 4.6,
+    "price": 45999,
+    "days": 4,
+    "nights": 3,
+    "highlights": [
+      "Luxury Resort Check-in",
+      "Palace & Lake Cruise",
+      "Spa & Fine Dining"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Luxury Resort Check-in"
+      },
+      {
+        "day": 2,
+        "title": "Palace & Lake Cruise"
+      },
+      {
+        "day": 3,
+        "title": "Spa & Fine Dining"
+      },
+      {
+        "day": 4,
+        "title": "Departure"
+      }
+    ]
+  },
+  {
+    "name": "Jaipur Heritage Luxury",
+    "slug": "jaipur-luxury",
+    "state": "Rajasthan",
+    "category": "Luxury Trips",
+    "description": "Pink City luxury with heritage hotels, royal experiences, and premium curated tours of historical landmarks",
+    "rating": 4.9,
+    "price": 39999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Palace Hotel Experience",
+      "Private Heritage Tours",
+      "Royal Rajasthani Cuisine"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Palace Hotel Experience"
+      },
+      {
+        "day": 2,
+        "title": "Private Heritage Tours"
+      },
+      {
+        "day": 3,
+        "title": "Royal Rajasthani Cuisine"
+      }
+    ]
+  },
+  {
+    "name": "Kumarakom Backwater Retreat",
+    "slug": "kumarakom-luxury",
+    "state": "Kerala",
+    "category": "Luxury Trips",
+    "description": "Exclusive Kerala backwater resort with luxury houseboats, Ayurvedic spa, and serene lagoon cruises",
+    "rating": 4.8,
+    "price": 52999,
+    "days": 4,
+    "nights": 3,
+    "highlights": [
+      "Luxury Houseboat Experience",
+      "Ayurvedic Spa & Wellness",
+      "Gourmet Kerala Cuisine"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Luxury Houseboat Experience"
+      },
+      {
+        "day": 2,
+        "title": "Ayurvedic Spa & Wellness"
+      },
+      {
+        "day": 3,
+        "title": "Gourmet Kerala Cuisine"
+      },
+      {
+        "day": 4,
+        "title": "Departure"
+      }
+    ]
+  },
+  {
+    "name": "Goa Luxury Beach Resort",
+    "slug": "goa-luxury",
+    "state": "Goa",
+    "category": "Luxury Trips",
+    "description": "Premium beachfront resorts with private beaches, water sports, and sunset dining on Arabian Sea",
+    "rating": 4.3,
+    "price": 48999,
+    "days": 5,
+    "nights": 4,
+    "highlights": [
+      "Luxury Resort Check-in",
+      "Water Sports & Leisure",
+      "Premium Dining & Entertainment"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Luxury Resort Check-in"
+      },
+      {
+        "day": 2,
+        "title": "Water Sports & Leisure"
+      },
+      {
+        "day": 3,
+        "title": "Premium Dining & Entertainment"
+      },
+      {
+        "day": 4,
+        "title": "Departure"
+      },
+      {
+        "day": 5,
+        "title": ""
+      }
+    ]
+  },
+  {
+    "name": "Munnar Mountain Luxury",
+    "slug": "munnar-luxury",
+    "state": "Kerala",
+    "category": "Luxury Trips",
+    "description": "High-altitude luxury resort amidst tea plantations with spa, fine dining, and premium mountain experiences",
+    "rating": 4.3,
+    "price": 42999,
+    "days": 3,
+    "nights": 2,
+    "highlights": [
+      "Luxury Mountain Resort",
+      "Tea Plantation Tours & Spa",
+      "Gourmet Mountain Dining"
+    ],
+    "dayWisePlan": [
+      {
+        "day": 1,
+        "title": "Luxury Mountain Resort"
+      },
+      {
+        "day": 2,
+        "title": "Tea Plantation Tours & Spa"
+      },
+      {
+        "day": 3,
+        "title": "Gourmet Mountain Dining"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .background { fill: #0F766E; }
+      .face { fill: #ffffff; }
+      .hands { stroke: #0F766E; fill: #0F766E; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #ffffff; }
+      .face { fill: #0F766E; }
+      .hands { stroke: #ffffff; fill: #ffffff; }
+    }
+  </style>
+  <rect class="background" width="180" height="180" rx="37" />
+  <circle class="face" cx="90" cy="90" r="58" />
+  <g class="hands" stroke-width="13" stroke-linecap="round">
+    <line x1="90" y1="90" x2="90" y2="52" />
+    <line x1="90" y1="90" x2="118" y2="104" />
+  </g>
+  <circle class="hands" cx="90" cy="90" r="9" />
+</svg>

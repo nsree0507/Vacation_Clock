@@ -1,0 +1,28 @@
+{
+  "name": "vacation-clock-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Vacation Clock travel booking website",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "vacation",
+    "travel",
+    "booking",
+    "tourism"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^7.8.9",
+    "multer": "^2.2.0"
+  }
+}
