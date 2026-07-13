@@ -37,6 +37,7 @@ const ImageUploadField = ({ value, onChange }) => {
     try {
       const data = new FormData()
       data.append('image', file)
+      console.log(import.meta.env.VITE_API_BASE_URL)
       const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/upload`,{method: 'POST',body: data,})
       if (!res.ok) throw new Error('Upload failed')
       const json = await res.json()
