@@ -11,8 +11,6 @@ import { BookingSidebarCard } from '@/components/itinerary/BookingSidebarCard'
 import { ExperienceHighlights } from '@/components/itinerary/ExperienceHighlights'
 import { JourneyTimeline } from '@/components/itinerary/JourneyTimeline'
 import { ExpeditionMap } from '@/components/itinerary/ExpeditionMap'
-import itineraryApi from '@/services/itineraryApi'
-import destinationApi from '@/services/destinationApi'
 import { useResolvedDestination } from '@/hooks/useResolvedDestination'
  
 export default function DynamicItineraryPage() {
@@ -35,49 +33,21 @@ export default function DynamicItineraryPage() {
   // Get place data first, then fall back to state data
   let dataSource = 'state' // 'state' or 'place'
   const slug = placeSlug || stateSlug
-  const { destination: state, loading: routeDestinationLoading } = useResolvedDestination(slug)
+  // dbDestination/dbItinerary are the live DB records already resolved by
+  // this hook (in parallel, alongside the static-data lookup) — reusing
+  // them here instead of re-fetching the same destination/itinerary again
+  // removes a duplicate round trip and is what keeps the hero image in
+  // sync with the card image shown on the itinerary list page.
+  const {
+    destination: state,
+    dbDestination,
+    dbItinerary,
+    loading: routeDestinationLoading,
+  } = useResolvedDestination(slug)
 
   if (slug && state && state.slug) {
     dataSource = getPlaceBySlug(slug) ? 'place' : 'state'
   }
-
-  // Live overrides from the DB (Manage Destinations / Manage Itineraries),
-  // so admin edits show up here instead of only ever showing the static
-  // sample content baked into src/data. Falls back to the local data for
-  // anything the admin hasn't set up yet (gallery, map, etc.).
-  const [dbDestination, setDbDestination] = useState(null)
-  const [dbItinerary, setDbItinerary] = useState(null)
- 
-  useEffect(() => {
-    if (!state?.name) return
-    let isMounted = true
- 
-    const loadDbOverrides = async () => {
-      try {
-        const destRes = await destinationApi.getAll({ search: state.name })
-        const matchedDestination = (destRes.data?.data || []).find(
-          (d) => d.name?.toLowerCase() === state.name.toLowerCase()
-        )
-        if (isMounted && matchedDestination) setDbDestination(matchedDestination)
- 
-        const itinerariesRes = await itineraryApi.getAll()
-        const allItineraries = itinerariesRes.data?.data || []
-        const matchedItinerary = state.__itineraryId
-          ? allItineraries.find((it) => it._id === state.__itineraryId)
-          : allItineraries.find((it) =>
-              it.destinations?.some((d) => d.toLowerCase() === state.name.toLowerCase())
-            )
-        if (isMounted && matchedItinerary) setDbItinerary(matchedItinerary)
-      } catch (err) {
-        // Non-critical — the page still works fine with the local sample data.
-      }
-    }
- 
-    loadDbOverrides()
-    return () => {
-      isMounted = false
-    }
-  }, [state?.name])
  
   // Merge: DB data (if an admin has set it up for this destination) takes
   // priority over the static local data.
@@ -138,10 +108,14 @@ export default function DynamicItineraryPage() {
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [])
  
-  // Try to get state data from slug or id. While the DB lookup for a
-  // non-static (admin-created) destination is still in flight, show a
-  // lightweight loading state instead of flashing "Destination Not Found".
-  if (!state && routeDestinationLoading) {
+  // Try to get state data from slug or id. While the DB lookup is still
+  // in flight, always show a lightweight loading state first — even when
+  // a static sample entry already matched the slug — so the page never
+  // renders static/placeholder data (old description, price, day plan,
+  // etc.) that then gets visibly swapped out once the real DB data
+  // arrives a moment later. Only once the lookup has settled do we fall
+  // through to the "not found" check or the full page render below.
+  if (routeDestinationLoading) {
     return (
       <main className="min-h-screen">
         <Navbar />
@@ -238,9 +212,13 @@ export default function DynamicItineraryPage() {
     'Tips and gratuities',
   ]
  
-  // DB destination records store the photo under `imageUrl`, while the
-  // static sample data (and itinerary-linked destinations) use `image`.
-  const heroImage = state.image || state.imageUrl || images.itinerary
+  // Always prefer the live Destination record's image first: that's the
+  // exact same record (and the same `imageUrl` field) used to render this
+  // destination's card on the itinerary list page, so opening the page
+  // shows the same photo the user clicked, even when a static sample
+  // entry also exists for this slug. Fall back to the static sample
+  // image, then the generic placeholder, only if no DB image is set.
+  const heroImage = dbDestination?.imageUrl || state.image || state.imageUrl || images.itinerary
  
   const includedItems = display.included || defaultIncludedItems
   const notIncludedItems = display.notIncluded || defaultNotIncludedItems

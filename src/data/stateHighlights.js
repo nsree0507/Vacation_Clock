@@ -87,7 +87,7 @@ export const stateHighlights = {
     slug: 'uttar-pradesh',
     famousPlace: 'Taj Mahal, Agra',
     famousFood: 'Tunday Kababi',
-    imageUrl: images.tajmahal || images.delhi,
+    imageUrl: images.delhi,
     weatherCity: 'Lucknow',
     route: stateRoute('uttar-pradesh'),
   },

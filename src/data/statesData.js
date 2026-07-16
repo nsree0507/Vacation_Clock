@@ -175,7 +175,7 @@ export const statesData = [
     name: 'Uttar Pradesh',
     slug: 'uttar-pradesh',
     region: 'North India',
-    image: images.tajmahal || images.delhi,
+    image: images.delhi,
     rating: 4.7,
     duration: '4 Days / 3 Nights',
     places: 11,

@@ -85,11 +85,11 @@ function StateCard({ state, stateStats = {}, index = 0, visiblePrices, togglePri
         className="flex flex-col group bg-card rounded-3xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow h-full"
       >
         {/* Image */}
-        <div className="relative h-52 shrink-0 overflow-hidden">
+        <div className="relative h-44 sm:h-52 shrink-0 overflow-hidden bg-muted">
           <img
             src={image}
             alt={state.name}
-                      className="w-full h-full object-contain sm:object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
           <div className="absolute top-3 right-3 bg-white/95 rounded-lg px-2.5 py-1 flex items-center gap-1 shadow">
             <Star size={13} className="text-yellow-400 fill-yellow-400" />
