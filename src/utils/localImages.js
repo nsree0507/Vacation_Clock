@@ -2,7 +2,7 @@ const localImages = {
   rajasthan: new URL('../assets/images/images/Rajasthan.jpg', import.meta.url).href,
   kerala: new URL('../assets/images/images/kerala.jpg', import.meta.url).href,
   himachal: new URL('../assets/images/images/Himachal Pradesh.jpg', import.meta.url).href,
-  goa: new URL('../assets/images/images/Goa.jpg', import.meta.url).href,
+  goa: new URL('../assets/images/images/goa.jpg', import.meta.url).href,
   tamilNadu: new URL('../assets/images/images/tamil nadu.jpg', import.meta.url).href,
   uttarakhand: new URL('../assets/images/images/uttarakhand.jpg', import.meta.url).href,
   haryana: new URL('../assets/images/images/haryana.jpg', import.meta.url).href,
