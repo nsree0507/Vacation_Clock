@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
  
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://vacation-clock-6oij.onrender.com/api'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://vacation-clock-6oij.onrender.com'
  
 export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
   const modalRef = useRef(null)
@@ -69,7 +69,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
  
       // Send OTP request
       try {
-        await fetch('/api/auth/send-otp', {
+        await fetch(`${API_BASE_URL}/api/auth/send-otp`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ name: trimmedName, emailOrPhone: trimmedEmail }),
@@ -92,7 +92,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
     }
  
     try {
-      const response = await fetch(`${API_BASE_URL}/users/register`, {
+      const response = await fetch(`${API_BASE_URL}/api/users/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: trimmedName, emailOrPhone: trimmedEmail }),
