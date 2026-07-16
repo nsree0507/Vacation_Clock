@@ -34,14 +34,10 @@ export async function submitBooking(data) {
     }
     return response.data
   } catch (error) {
-    // Fallback: Generate temporary booking ID if backend is unavailable
-    console.warn('Backend unavailable, generating temporary booking ID:', error)
-    const tempBookingId = `BK-${new Date().getFullYear()}-${Math.floor(Math.random() * 99999)}`
-    return {
-      bookingId: tempBookingId,
-      success: true,
-      isTemporary: true,
-      data: null,
-    }
+    console.error("Booking API Error:", error)
+    console.error("Status:", error.response?.status)
+    console.error("Response:", error.response?.data)
+
+    throw error
   }
 }
