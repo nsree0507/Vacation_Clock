@@ -39,6 +39,15 @@ export function Navbar() {
     } catch (_) {}
   }, [])
  
+  // Stay in sync when sign-in happens from elsewhere (e.g. the itinerary
+  // page's Book Now flow), since that mounts its own LoginDropdown
+  // instance rather than sharing this one's state.
+  useEffect(() => {
+    const handleAuthChange = (e) => setUser(e.detail)
+    window.addEventListener('vacationClockAuthChange', handleAuthChange)
+    return () => window.removeEventListener('vacationClockAuthChange', handleAuthChange)
+  }, [])
+ 
   // Intersection Observer — only runs on home page
   useEffect(() => {
     if (pathname !== '/') {

@@ -42,7 +42,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
       document.removeEventListener('keydown', handleEscape)
     }
   }, [isOpen, onClose])
-
+ 
   // Lock background scrolling when modal is open
   useEffect(() => {
     const originalOverflow = document.body.style.overflow
@@ -116,6 +116,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
       }
  
       localStorage.setItem('vacationClockUser', JSON.stringify(userData))
+      window.dispatchEvent(new CustomEvent('vacationClockAuthChange', { detail: userData }))
  
       setStatus('Sign in successful!')
  
@@ -148,7 +149,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
           className="hidden sm:block absolute -top-4 right-20 w-8 h-8 bg-[#f8f7f4] rotate-45"
           style={{ borderRadius: '2px' }}
         />
-
+ 
         <button
           type="button"
           onClick={onClose}
@@ -157,7 +158,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
         >
           ×
         </button>
-
+ 
         <div className="overflow-y-auto max-h-[88vh]">
           <div className="sticky top-0 bg-[#f8f7f4] z-10 px-6 py-6 sm:px-10 sm:py-10">
             <h2
@@ -170,7 +171,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
               Access the Dreamspos panel using your email and passcode.
             </p>
           </div>
-
+ 
           <div className="px-6 pb-6 sm:px-10 sm:pb-10">
             <form onSubmit={handleSubmit} className="space-y-7">
               <input
@@ -187,7 +188,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
                 placeholder="Email/Phone Number"
                 className="w-full h-[58px] rounded-[12px] border border-[#8a8a8a] bg-transparent px-5 text-[16px] text-slate-800 placeholder:text-[#666] focus:outline-none"
               />
-
+ 
               {/* OTP input only shown after clicking Verify OTP */}
               {otpSent && (
                 <input
@@ -199,7 +200,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
                   className="w-full h-[58px] rounded-[12px] border border-[#8a8a8a] bg-transparent px-5 text-[16px] text-slate-800 placeholder:text-[#666] focus:outline-none"
                 />
               )}
-
+ 
               <label className="flex items-center gap-3 text-[16px] text-[#3f3f3f] cursor-pointer select-none pt-1">
                 <input
                   type="checkbox"
@@ -209,7 +210,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
                 />
                 Remember Me
               </label>
-
+ 
               {status && (
                 <p
                   className="text-sm font-medium"
@@ -218,7 +219,7 @@ export function LoginDropdown({ isOpen, onClose, onLoginSuccess }) {
                   {status}
                 </p>
               )}
-
+ 
               <button
                 type="submit"
                 className="w-full h-[58px] rounded-full text-[18px] font-medium text-white transition-opacity hover:opacity-90 mt-2"

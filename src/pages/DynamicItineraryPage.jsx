@@ -11,12 +11,14 @@ import { BookingSidebarCard } from '@/components/itinerary/BookingSidebarCard'
 import { ExperienceHighlights } from '@/components/itinerary/ExperienceHighlights'
 import { JourneyTimeline } from '@/components/itinerary/JourneyTimeline'
 import { ExpeditionMap } from '@/components/itinerary/ExpeditionMap'
+import { LoginDropdown } from '@/components/LoginDropdown'
 import { useResolvedDestination } from '@/hooks/useResolvedDestination'
  
 export default function DynamicItineraryPage() {
   const { state: stateSlug, id: placeSlug } = useParams()
   const navigate = useNavigate()
   const [showBookingModal, setShowBookingModal] = useState(false)
+  const [isLoginOpen, setIsLoginOpen] = useState(false)
   const [activeDay, setActiveDay] = useState(0)
   const [showExpandedMap, setShowExpandedMap] = useState(false)
   const timelineContainerRef = useRef(null)
@@ -29,6 +31,19 @@ export default function DynamicItineraryPage() {
     startDate: '',
     specialRequest: '',
   })
+
+  // Reads the signed-in user straight from localStorage rather than caching
+  // it in state on mount. This page can be deep-linked/refreshed independent
+  // of the Navbar, so we always want the live value at the moment "Book Now"
+  // is clicked rather than a possibly-stale snapshot from first render.
+  const getSignedInUser = () => {
+    try {
+      const stored = localStorage.getItem('vacationClockUser')
+      return stored ? JSON.parse(stored) : null
+    } catch (_) {
+      return null
+    }
+  }
  
   // Get place data first, then fall back to state data
   let dataSource = 'state' // 'state' or 'place'
@@ -173,6 +188,28 @@ export default function DynamicItineraryPage() {
   }
  
   const handleBookNow = () => {
+    const user = getSignedInUser()
+    if (!user) {
+      // Not signed in — show the sign-in modal first. Booking only opens
+      // once handleLoginSuccess fires (see below), so a guest can never
+      // reach the booking form without authenticating.
+      setIsLoginOpen(true)
+      return
+    }
+    setShowBookingModal(true)
+  }
+
+  const handleLoginSuccess = (userData) => {
+    setIsLoginOpen(false)
+    // Prefill the booking form with whatever we already know about the
+    // user, then proceed straight into booking — this is the "next step"
+    // the sign-in was gating.
+    setBookingFormData((prev) => ({
+      ...prev,
+      fullName: prev.fullName || userData?.name || '',
+      email: prev.email || (userData?.emailOrPhone?.includes('@') ? userData.emailOrPhone : prev.email),
+      phone: prev.phone || (userData?.emailOrPhone && !userData.emailOrPhone.includes('@') ? userData.emailOrPhone : prev.phone),
+    }))
     setShowBookingModal(true)
   }
  
@@ -642,6 +679,12 @@ export default function DynamicItineraryPage() {
  
       <GallerySection />
       <Footer />
+
+      <LoginDropdown
+        isOpen={isLoginOpen}
+        onClose={() => setIsLoginOpen(false)}
+        onLoginSuccess={handleLoginSuccess}
+      />
     </main>
   )
 }
